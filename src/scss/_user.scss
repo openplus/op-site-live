@@ -1,0 +1,139 @@
+// 
+// user.scss
+// Use this to write your custom SCSS
+//
+
+.vplaybtn {
+  cursor: pointer;
+}
+
+.vwrapclose {
+  top: -25px !important;
+  right: -25px !important;
+  background-size: 25px;
+}
+
+.our-project-wrap .card {
+    height:100%;
+}
+
+.our-project-wrap .card-body {
+  padding: 35px 20px;
+}
+
+.our-project-wrap .card-body .text-muted {
+  font-size: 15px;
+}
+
+.our-project-wrap .card-body h3 {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.cb-title-dark::after {
+    content: '';
+    background: #65AA01;
+    height: 7px;
+    width: 80px;
+    display: block;
+    border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 12px;
+}
+
+.lb-title-dark::after {
+    content: '';
+    background: #65AA01;
+    height: 7px;
+    width: 80px;
+    display: block;
+    border-radius: 5px;
+	margin-top: 12px;
+}
+
+.cb-title-light::after {
+    content: '';
+    background: #ffffff;
+    height: 7px;
+    width: 80px;
+    display: block;
+    border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 12px;
+}
+
+.equal-h-ctm .card {
+  height: 100%;
+}
+
+.project-ctm-fs {
+  font-size: 26px;
+  margin-bottom: 0px;
+}
+
+.ctm-btn-tab .nav-item .nav-link  {
+  position: relative
+}
+
+.ctm-btn-tab .nav-item .nav-link.active:after {
+    content: '';
+    height: 0;
+    width: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #65aa02;
+    left: 0;
+    right: 0;
+    top: 100%;
+    margin: auto;
+    position: absolute;
+    display: block;
+}
+
+.logo-img-wrap {
+  height: 100%;
+}
+
+.ctm-video-container {
+  overflow: hidden;
+  position: relative;
+  width:100%;
+}
+
+.ctm-video-container::after {
+  padding-top: 56.25%;
+  display: block;
+  content: '';
+}
+
+.ctm-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .dropdown-item {
+  color: #65AA02 !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .dropdown-item:hover,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .dropdown-item.active {
+  color: #231F20 !important;
+}
+
+.navbar-light .navbar-nav .dropdown-item {
+  margin-bottom: 10px;
+}
+
+.footer-copyright {
+  border-top: 1px solid #1b4e1e1c;
+}
+
+.btn-primary.btn-active {
+  background: #231f20;
+}
