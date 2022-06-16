@@ -1,7 +1,7 @@
 # OpenPlus Live Site
 
 This is a Bootstrap theme, premised on Landkit Theme by Good Themes.
-We point GitHub Pages dorectly to the /dist folder, which is automatically generated (regenerated) everytime you run - npm run build. So the entire site is managed from /src. The npm will regenerate all common partials (re: headers footers, and recompile SCSS).
+We point GitHub Pages dorectly to the /dist folder, which is automatically generated (regenerated) everytime you run - npm run build. So the entire site is managed from /src. The npm will regenerate all common partials (re: headers footers, and recompile SCSS). 
 
 ### Documentation
 
