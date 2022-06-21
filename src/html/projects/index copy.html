@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  {{> partials/head
+  title="Projects - OpenPlus"
+  description="OpenPlus Projects"
+  keywords=""
+  }}
+</head>
+
+<body class="bg-light">
+
+  <!-- NAVBAR -->
+  {{> partials/navbar classList="navbar-light bg-white" container="container" button="primary"}}
+
+  <!-- WELCOME -->
+  <section data-jarallax data-speed=".8" class="pt-10 pb-11 py-md-14 overlay overlay-black overlay-60 jarallax"
+    style="background-image: url({{webRoot}}/assets/img/extra/projects-page-cover-min.jpg);">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8 text-center">
+
+          <!-- Heading -->
+          <h1 class="display-2 fw-bold text-white">
+            Our Work Matters
+          </h1>
+
+          <!-- Text -->
+          <p class="lead text-white-75 mb-0">
+            See some of our most recent projects.
+          </p>
+
+        </div>
+      </div> <!-- / .row -->
+    </div> <!-- / .container -->
+  </section>
+
+  <!-- SHAPE -->
+  <div class="position-relative">
+    <div class="shape shape-bottom shape-fluid-x text-light">
+      {{> curves/curve-1}}
+    </div>
+  </div>
+
+  <!-- TESTIMONIALS -->
+  <section class="pt-10 pt-md-12 pb-md-10">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8 text-center">
+          <!-- Heading -->
+          <h2 class="cb-title-dark">
+            Testimonials
+          </h2>
+
+          <!-- Text -->
+          <p class="fs-lg text-muted mb-7 mb-md-9">
+            Real words... from happy clients. You're welcome.
+          </p>
+
+        </div>
+      </div> <!-- / .row -->
+      <div class="row">
+        <div class="col-12">
+
+          <!-- Card -->
+          <div class="card card-row shadow-light-lg mb-8">
+            <div class="row gx-0">
+              <div class="col-12 col-md-6">
+                <!-- Slider -->
+                <div class="card-img-slider"
+                  data-flickity='{"fade": true, "imagesLoaded": true, "pageDots": false, "prevNextButtons": false, "asNavFor": "#blogSlider", "draggable": false}'>
+                  <a class="card-img-start w-100 bg-cover"
+                    style="background-image: url({{webRoot}}/assets/img/photos/testimonials-cover-1-min.jpg);"
+                    href="#!">
+                    <!-- Image (placeholder) -->
+                    <img src="{{webRoot}}/assets/img/photos/testimonials-cover-1-min.jpg" alt="..."
+                      class="img-fluid d-md-none invisible">
+                  </a>
+                  <a class="card-img-start w-100 bg-cover"
+                    style="background-image: url({{webRoot}}/assets/img/photos/testimonials-cover-2-min.jpg);"
+                    href="#!">
+                    <!-- Image (placeholder) -->
+                    <img src="{{webRoot}}/assets/img/photos/testimonials-cover-2-min.jpg" alt="..."
+                      class="img-fluid d-md-none invisible">
+                  </a>
+                  <a class="card-img-start w-100 bg-cover"
+                    style="background-image: url({{webRoot}}/assets/img/photos/testimonials-cover-3-min.jpg);"
+                    href="#!">
+                    <!-- Image (placeholder) -->
+                    <img src="{{webRoot}}/assets/img/photos/testimonials-cover-3-min.jpg" alt="..."
+                      class="img-fluid d-md-none invisible">
+                  </a>
+                  <a class="card-img-start w-100 bg-cover"
+                    style="background-image: url({{webRoot}}/assets/img/photos/testimonials-cover-4-min.jpg);"
+                    href="#!">
+                    <!-- Image (placeholder) -->
+                    <img src="{{webRoot}}/assets/img/photos/testimonials-cover-4-min.jpg" alt="..."
+                      class="img-fluid d-md-none invisible">
+                  </a>
+                </div>
+                <!-- Shape -->
+                <div class="shape shape-end shape-fluid-y text-white d-none d-md-block">
+                  {{> curves/curve-4}}
+                </div>
+              </div>
+
+              <div class="col-12 col-md-6 position-md-static">
+                <!-- Slider -->
+                <div class="position-md-static"
+                  data-flickity='{"wrapAround": true, "pageDots": false, "adaptiveHeight": true}' id="blogSlider">
+
+                  <div class="w-100">
+                    <!-- Body -->
+                    <div class="card-body">
+                      <blockquote class="blockquote text-center mb-0">
+                        <!-- Text -->
+                        <p class="mb-5 mb-md-7">
+                          “The OpenPlus team did an outstanding job of delivering on this complex project for us. It was
+                          a pleasure to work with your team. They’re outstanding professionals, and we look forward to
+                          working together again.”
+                        </p>
+                        <!-- Footer -->
+                        <footer class="blockquote-footer">
+                          <span class="h6 text-uppercase">City of Hamilton (2015)</span>
+                        </footer>
+                      </blockquote>
+                    </div>
+                  </div>
+
+                  <div class="w-100">
+                    <!-- Body -->
+                    <div class="card-body">
+                      <blockquote class="blockquote text-center mb-0">
+                        <!-- Text -->
+                        <p class="mb-7 mb-md-7">
+                          “OpenPlus is amazing. They are knowledgeable, insightful and obviously have done their
+                          research. Their presentations are on point and contextual. I could talk to them all day.”
+                        </p>
+                        <!-- Footer -->
+                        <footer class="blockquote-footer">
+                          <span class="h6 text-uppercase">Canada Revenue Agency (2015)</span>
+                        </footer>
+                      </blockquote>
+                    </div>
+                  </div>
+
+                  <div class="w-100">
+                    <!-- Body -->
+                    <div class="card-body">
+                      <blockquote class="blockquote text-center mb-0">
+                        <!-- Text -->
+                        <p class="mb-5 mb-md-7">
+                          “We had issues with the past vendor and we have been very impressed with the work done by
+                          OpenPlus and look forward to continuing performance. I had excellent experiences with your
+                          team.”
+                        </p>
+                        <!-- Footer -->
+                        <footer class="blockquote-footer">
+                          <span class="h6 text-uppercase">Canadian Transportation Agency (2015)</span>
+                        </footer>
+                      </blockquote>
+                    </div>
+                  </div>
+
+                  <div class="w-100">
+                    <!-- Body -->
+                    <div class="card-body">
+                      <blockquote class="blockquote text-center mb-0">
+                        <!-- Text -->
+                        <p class="mb-5 mb-md-7">
+                          “.. it's an amazing product, looks good, works well, it works on multiple platforms, it's
+                          everything that we hoped, you delivered an amazing product, it really pushes the way we use
+                          our Intranet. Under budget, and on time!”
+                        </p>
+                        <!-- Footer -->
+                        <footer class="blockquote-footer">
+                          <span class="h6 text-uppercase">Health Canada (2016)</span>
+                        </footer>
+                      </blockquote>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div> <!-- / .row -->
+          </div>
+
+        </div>
+      </div> <!-- / .row -->
+    </div> <!-- / .container -->
+  </section>
+
+  <section class="py-md-11 bg-white">
+    <div class="container">
+      <div class="row justify-content-center pb-7">
+        <div class="col-12 col-md-10 col-lg-8 text-center">
+          <h2 class="fw-bold cb-title-dark">
+            Featured <span class="text-primary">Projects</span>
+          </h2>
+        </div>
+      </div>    
+      
+      <div class="row">
+        <div class="col-12 col-md-4 col-lg-4 col-xl-4 d-flex">
+          <div class="card bg-primary text-white shadow-light-lg mb-6 lift lift-lg" style="background-image: url({{webRoot}}/assets/img/extra/lets-work-together.jpg);">
+            <a class="card-body py-12 text-center" href="{{webRoot}}/contact/">
+              <p class="display-2"><i class="fe fe-mail me-2"></i></p>
+              <h3 class="display-5 fw-bold">
+                Let's Work Together!
+              </h3>
+              <hr class="card-meta-divider">
+              <h6 class="text-uppercase text-white me-2 mb-0">
+              Contact us now
+              </h6>
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-8 col-lg-8 col-xl-8 d-flex">
+          <div class="card pt-14 bg-cover text-white shadow-light-lg mb-6 lift lift-lg" style="background-image: url({{webRoot}}/assets/img/extra/ised-cover-bg.jpg);">
+            <span class="badge rounded-pill bg-light badge-float badge-float-inside">
+              <span class="h6 text-uppercase">Featured</span>
+            </span>
+            <a class="card-body mt-auto" href="{{webRoot}}/projects/ised.html">
+              <img src="{{webRoot}}/assets/img/extra/projects-logo-light.png" class="img-fluid">
+              <h3 class="mt-auto">
+                Innovation, Science and Economic Development Canada
+              </h3>
+              <hr class="card-meta-divider bg-white-20">
+              <h6 class="text-uppercase text-white-80 me-2 mb-0">
+                <i class="fe fe-tag me-2"></i> Government
+              </h6>              
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-md-8 col-lg-8 col-xl-8 d-flex">
+          <div class="card pt-14 bg-cover text-white shadow-light-lg mb-6 lift lift-lg" style="background-image: url({{webRoot}}/assets/img/extra/unesco-cover-bg.jpg);">
+            <span class="badge rounded-pill bg-light badge-float badge-float-inside">
+              <span class="h6 text-uppercase">Featured</span>
+            </span>
+            <a class="card-body mt-auto" href="{{webRoot}}/projects/unesco.html">
+              <img src="{{webRoot}}/assets/img/extra/projects-logo-2-light.png" class="img-fluid">
+              <h3 class="mt-auto">
+                Drupal Development on Microsoft Azure
+              </h3>
+              <hr class="card-meta-divider bg-white-20">
+              <h6 class="text-uppercase text-white-80 me-2 mb-0">
+                <i class="fe fe-tag me-2"></i>  Non-profit, Agency of the United Nations (UN)
+              </h6>              
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4 col-xl-4 d-flex">
+          <div class="card pt-10 bg-cover text-white shadow-light-lg mb-6 lift lift-lg" style="background-image: url({{webRoot}}/assets/img/extra/blueprint.png);">
+            <a class="card-body mt-auto" href="{{webRoot}}/projects/health-canada-blueprint2020.html">
+              <img src="{{webRoot}}/assets/img/extra/projects-logo-3-light.png" class="img-fluid">
+              <h3 class="mt-auto">
+                Blueprint 2020: Website Design & Drupal Development
+              </h3>
+              <hr class="card-meta-divider bg-white-20">
+              <h6 class="text-uppercase text-white-80 me-2 mb-0">
+                <i class="fe fe-tag me-2"></i>  Government
+              </h6>              
+            </a>
+          </div>
+        </div>       
+      </div> 
+      
+      <div class="row">
+        <div class="col-12 col-md-4 col-lg-4 col-xl-4 d-flex">
+          <div class="card pt-10 bg-cover text-white shadow-light-lg mb-6 lift lift-lg" style="background-image: url({{webRoot}}/assets/img/extra/hamilton-cover.png);">
+            <a class="card-body mt-auto" href="{{webRoot}}/projects/hamilton.html">
+              <img src="{{webRoot}}/assets/img/extra/projects-logo-4-light.png" class="img-fluid">
+              <h3 class="mt-auto">
+                Feature Creation & Drupal Development
+              </h3>
+              <hr class="card-meta-divider bg-white-20">
+              <h6 class="text-uppercase text-white-80 me-2 mb-0">
+                <i class="fe fe-tag me-2"></i> City
+              </h6>              
+            </a>
+          </div>
+        </div>        
+        <div class="col-12 col-md-8 col-lg-8 col-xl-8 d-flex">
+          <div class="card pt-13 bg-cover text-white shadow-light-lg mb-6 lift lift-lg" style="background-image: url({{webRoot}}/assets/img/extra/gpei-services.png);">
+            <span class="badge rounded-pill bg-light badge-float badge-float-inside">
+              <span class="h6 text-uppercase">Featured</span>
+            </span>
+            <a class="card-body mt-auto" href="{{webRoot}}/projects/gpei-services.html">
+              <img src="{{webRoot}}/assets/img/extra/projects-logo-5-light.png" class="img-fluid">
+              <h3 class="mt-auto">
+                eServices & Webform Solution
+              </h3>
+              <hr class="card-meta-divider bg-white-20">
+              <h6 class="text-uppercase text-white-80 me-2 mb-0">
+                <i class="fe fe-tag me-2"></i> Government
+              </h6>              
+            </a>
+          </div>
+        </div>
+      </div>  
+      
+      <div class="row">
+        <div class="col-12 col-md-8 col-lg-8 col-xl-8 d-flex">
+          <div class="card pt-13 bg-cover text-white shadow-light-lg mb-6 lift lift-lg" style="background-image: url({{webRoot}}/assets/img/extra/gpei-services-cover-bg.png);">
+            <span class="badge rounded-pill bg-light badge-float badge-float-inside">
+              <span class="h6 text-uppercase">Featured</span>
+            </span>
+            <a class="card-body mt-auto" href="{{webRoot}}/projects/gpei.html">
+              <img src="{{webRoot}}/assets/img/extra/projects-logo-5-light.png" class="img-fluid">
+              <h3 class="mt-auto">
+                Website Design & Drupal Development
+              </h3>
+              <hr class="card-meta-divider bg-white-20">
+              <h6 class="text-uppercase text-white-80 me-2 mb-0">
+                <i class="fe fe-tag me-2"></i> Government
+              </h6>              
+            </a>
+          </div>
+        </div>        
+        <div class="col-12 col-md-4 col-lg-4 col-xl-4 d-flex">
+          <div class="card pt-10 bg-cover text-white shadow-light-lg mb-6 lift lift-lg" style="background-image: url({{webRoot}}/assets/img/extra/yukon-cover.png);">
+            <a class="card-body mt-auto" href="{{webRoot}}/projects/yukon.html">
+              <img src="{{webRoot}}/assets/img/extra/projects-logo-6-light.png" width="140px" class="img-fluid mb-2">
+              <h3 class="mt-auto">
+                Website Design & Drupal Development
+              </h3>
+              <hr class="card-meta-divider bg-white-20">
+              <h6 class="text-uppercase text-white-80 me-2 mb-0">
+                <i class="fe fe-tag me-2"></i> Government
+              </h6>              
+            </a>
+          </div>
+        </div>        
+      </div> 
+      
+      <div class="row">
+        <div class="col-12 col-md-4 col-lg-4 col-xl-4 d-flex">
+          <div class="card pt-10 bg-cover text-white shadow-light-lg mb-6 lift lift-lg" style="background-image: url({{webRoot}}/assets/img/extra/opseu.png);">
+            <a class="card-body mt-auto" href="{{webRoot}}/projects/opseu.html">
+              <img src="{{webRoot}}/assets/img/extra/projects-logo-7-light.png" width="140px" class="img-fluid mb-2">
+              <h3 class="mt-auto">
+                Drupal Development
+              </h3>
+              <hr class="card-meta-divider bg-white-20">
+              <h6 class="text-uppercase text-white-80 me-2 mb-0">
+                <i class="fe fe-tag me-2"></i> Union
+              </h6>              
+            </a>
+          </div>
+        </div>         
+        <div class="col-12 col-md-8 col-lg-8 col-xl-8 d-flex">
+          <div class="card pt-13 bg-cover text-white shadow-light-lg mb-6 lift lift-lg" style="background-image: url({{webRoot}}/assets/img/extra/cta.png);">
+            <span class="badge rounded-pill bg-light badge-float badge-float-inside">
+              <span class="h6 text-uppercase">Featured</span>
+            </span>
+            <a class="card-body mt-auto" href="{{webRoot}}/projects/cta.html">
+              <img src="{{webRoot}}/assets/img/extra/projects-logo-8-light.png" class="img-fluid">
+              <h3 class="mt-auto">
+                Website Design & Drupal Development
+              </h3>
+              <hr class="card-meta-divider bg-white-20">
+              <h6 class="text-uppercase text-white-80 me-2 mb-0">
+                <i class="fe fe-tag me-2"></i> Government
+              </h6>              
+            </a>
+          </div>
+        </div>        
+      </div>       
+
+      <div class="row">
+        <div class="col-12 col-md-8 col-lg-8 col-xl-8 d-flex">
+          <div class="card pt-13 bg-cover text-white shadow-light-lg mb-6 lift lift-lg" style="background-image: url({{webRoot}}/assets/img/extra/cmhr.png);">
+            <span class="badge rounded-pill bg-light badge-float badge-float-inside">
+              <span class="h6 text-uppercase">Featured</span>
+            </span>
+            <a class="card-body mt-auto" href="{{webRoot}}/projects/cmhr.html">
+              <img src="{{webRoot}}/assets/img/extra/projects-logo-9-light.png" class="img-fluid">
+              <h3 class="mt-auto">
+                Website Design & Drupal Development
+              </h3>
+              <hr class="card-meta-divider bg-white-20">
+              <h6 class="text-uppercase text-white-80 me-2 mb-0">
+                <i class="fe fe-tag me-2"></i> Museum
+              </h6>              
+            </a>
+          </div>
+        </div>         
+        <div class="col-12 col-md-4 col-lg-4 col-xl-4 d-flex">
+          <div class="card pt-10 bg-cover text-white shadow-light-lg mb-6 lift lift-lg" style="background-image: url({{webRoot}}/assets/img/extra/nrc.png);">
+            <a class="card-body mt-auto" href="{{webRoot}}/projects/nrc.html">
+              <img src="{{webRoot}}/assets/img/extra/projects-logo-10-light.png" width="140px" class="img-fluid mb-2">
+              <h3 class="mt-auto">
+                Drupal Development
+              </h3>
+              <hr class="card-meta-divider bg-white-20">
+              <h6 class="text-uppercase text-white-80 me-2 mb-0">
+                <i class="fe fe-tag me-2"></i> Government
+              </h6>              
+            </a>
+          </div>
+        </div>         
+      </div> 
+
+      <div class="row">
+        <div class="col-12 col-md-4 col-lg-4 col-xl-4 d-flex">
+          <div class="card pt-10 bg-cover text-white shadow-light-lg mb-6 lift lift-lg" style="background-image: url({{webRoot}}/assets/img/extra/ottawa.png);">
+            <a class="card-body mt-auto" href="{{webRoot}}/projects/ottawa.html">
+              <img src="{{webRoot}}/assets/img/extra/projects-logo-11-light.png" width="140px" class="img-fluid mb-2">
+              <h3 class="mt-auto">
+                Drupal Development
+              </h3>
+              <hr class="card-meta-divider bg-white-20">
+              <h6 class="text-uppercase text-white-80 me-2 mb-0">
+                <i class="fe fe-tag me-2"></i> City
+              </h6>              
+            </a>
+          </div>
+        </div>          
+        <div class="col-12 col-md-8 col-lg-8 col-xl-8 d-flex">
+          <div class="card pt-13 bg-cover text-white shadow-light-lg mb-6 lift lift-lg" style="background-image: url({{webRoot}}/assets/img/extra/pipsc.png);">
+            <span class="badge rounded-pill bg-light badge-float badge-float-inside">
+              <span class="h6 text-uppercase">Featured</span>
+            </span>
+            <a class="card-body mt-auto" href="{{webRoot}}/projects/pipsc-serviceplus.html">
+              <img src="{{webRoot}}/assets/img/extra/projects-logo-12-light.png" class="img-fluid">
+              <h3 class="mt-auto">
+                Website Design & Drupal Development
+              </h3>
+              <hr class="card-meta-divider bg-white-20">
+              <h6 class="text-uppercase text-white-80 me-2 mb-0">
+                <i class="fe fe-tag me-2"></i> Government
+              </h6>              
+            </a>
+          </div>
+        </div>            
+      </div> 
+      
+      <div class="row">          
+        <div class="col-12 col-md-8 col-lg-8 col-xl-8 d-flex">
+          <div class="card pt-13 bg-cover text-white shadow-light-lg mb-6 lift lift-lg" style="background-image: url({{webRoot}}/assets/img/extra/health.png);">
+            <span class="badge rounded-pill bg-light badge-float badge-float-inside">
+              <span class="h6 text-uppercase">Featured</span>
+            </span>
+            <a class="card-body mt-auto" href="{{webRoot}}/projects/healthcanada.html">
+              <img src="{{webRoot}}/assets/img/extra/projects-logo-3-light.png" class="img-fluid">
+              <h3 class="mt-auto">
+                Website Design & Drupal Development
+              </h3>
+              <hr class="card-meta-divider bg-white-20">
+              <h6 class="text-uppercase text-white-80 me-2 mb-0">
+                <i class="fe fe-tag me-2"></i> Government
+              </h6>              
+            </a>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4 col-xl-4 d-flex">
+          <div class="card pt-10 bg-cover text-white shadow-light-lg mb-6 lift lift-lg" style="background-image: url({{webRoot}}/assets/img/extra/scc.png);">
+            <a class="card-body mt-auto" href="{{webRoot}}/projects/scc.html">
+              <img src="{{webRoot}}/assets/img/extra/projects-logo-13-light.png" width="140px" class="img-fluid mb-2">
+              <h3 class="mt-auto">
+                Drupal Development
+              </h3>
+              <hr class="card-meta-divider bg-white-20">
+              <h6 class="text-uppercase text-white-80 me-2 mb-0">
+                <i class="fe fe-tag me-2"></i> Government
+              </h6>              
+            </a>
+          </div>
+        </div>                   
+      </div>      
+
+      <div class="row">    
+        <div class="col-12 col-md-4 col-lg-4 col-xl-4 d-flex">
+          <div class="card pt-10 bg-cover text-white shadow-light-lg mb-6 lift lift-lg" style="background-image: url({{webRoot}}/assets/img/extra/ocol.png);">
+            <a class="card-body mt-auto" href="{{webRoot}}/projects/ocol.html">
+              <img src="{{webRoot}}/assets/img/extra/projects-logo-14-light.png" width="140px" class="img-fluid mb-2">
+              <h3 class="mt-auto">
+                Drupal Development
+              </h3>
+              <hr class="card-meta-divider bg-white-20">
+              <h6 class="text-uppercase text-white-80 me-2 mb-0">
+                <i class="fe fe-tag me-2"></i> Government
+              </h6>              
+            </a>
+          </div>
+        </div>              
+        <div class="col-12 col-md-8 col-lg-8 col-xl-8 d-flex">
+          <div class="card pt-13 bg-cover text-white shadow-light-lg mb-6 lift lift-lg" style="background-image: url({{webRoot}}/assets/img/extra/uottawa.png);">
+            <span class="badge rounded-pill bg-light badge-float badge-float-inside">
+              <span class="h6 text-uppercase">Featured</span>
+            </span>
+            <a class="card-body mt-auto" href="{{webRoot}}/projects/uottawa.html">
+              <img src="{{webRoot}}/assets/img/extra/projects-logo-15-light.png" class="img-fluid">
+              <h3 class="mt-auto">
+                Distro & Drupal Development
+              </h3>
+              <hr class="card-meta-divider bg-white-20">
+              <h6 class="text-uppercase text-white-80 me-2 mb-0">
+                <i class="fe fe-tag me-2"></i> University
+              </h6>              
+            </a>
+          </div>
+        </div>      
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- SHAPE -->
+  <div class="position-relative">
+    <div class="shape shape-bottom shape-fluid-x text-gray-200">
+      {{> curves/curve-1}}
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  {{> partials/footer classList="bg-gray-200"}}
+
+  <!-- JAVASCRIPT -->
+  {{> partials/scripts}}
+
+</body>
+
+</html>
