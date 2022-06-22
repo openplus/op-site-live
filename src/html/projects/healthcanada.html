@@ -1,0 +1,439 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  {{> partials/head
+  title="Health Canada Intranet - OpenPlus"
+  description=""
+  keywords=""
+  }}
+</head>
+
+<body class="bg-light">
+
+  <!-- MODALS -->
+  {{> partials/modals}}
+
+  <!-- NAVBAR -->
+  {{> partials/navbar classList="navbar-light bg-white" container="container" button="primary"}}
+
+  <section class="py-8 py-md-11 bg-cover" id="welcome" style="background-image: url({{webRoot}}/assets/img/extra/healthcanada-main-cover.jpg);">
+    <div class="shape shape-blur-3 text-white">
+      <svg viewBox="0 0 1738 487" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 0h1420.92s713.43 457.505 0 485.868C707.502 514.231 0 0 0 0z" fill="url(#paint0_linear)"></path>
+        <defs>
+          <linearGradient id="paint0_linear" x1="0" y1="0" x2="1049.98" y2="912.68" gradientUnits="userSpaceOnUse">
+            <stop stop-color="currentColor" stop-opacity=".075"></stop>
+            <stop offset="1" stop-color="currentColor" stop-opacity="0"></stop>
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <div class="col-12 col-md-7 col-lg-7 mb-5 aos-init aos-animate" data-aos="fade-up">
+          <h1 class="text-center text-md-start text-white fw-bold">
+            Health Canada
+          </h1>
+          <p class="text-md-start text-white mb-6 mb-lg-6">
+            Health Canada is the Federal department responsible for helping Canadians maintain and improve their health, while respecting individual choices and circumstances.
+            <br><br>
+            OpenPlus was contracted to deliver a Web Content Management System (WCMS) for Health Canada and Public Health Agency of Canada intranet site for over 15,000 nationwide employees. Consistent with TBS recommendations and the other government department rollouts and a tight deadline, OpenPlus is working with HC and PHAC to introduce the Drupal7 WET/WxT platform (an open source content management system).
+            <br><br>
+            This deployment includes features such as; user self-serve dashboards on topic and type of content relevancy, collaborative features, moderated content, survey and polling.
+            <br><br>
+            We integrated their user into the LDAP IBM/Domino solution with full group mappings. We leveraged a Group solution to help better control access and approval capabilities. A sophisticated scripted migration process was able to efficiently move their content from their old static sites into something which was managed. Providing training to their internal team as well as guiding the Shared Services group on some best practices for optimum performance such as Varnish tuning.           
+           </p>
+        </div>
+        <div class="col-12 col-md-5 col-lg-5 aos-init aos-animate" data-aos="fade-up">
+          <div class="accordion shadow-light-lg mb-md-6" id="helpAccordionOne">
+            <div class="accordion-item">
+              <div class="accordion-button py-5" role="button">
+                <div class="mx-auto">
+                  <h4 class="fw-bold mb-0">
+                    <img class="figure-img img-fluid rounded mb-0"
+                      src="{{webRoot}}/assets/img/extra/healthcanada-logo-dark.png">
+                  </h4>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#helpOne"
+                aria-expanded="false" aria-controls="helpOne">
+                <span class="me-4 fw-bold h4" id="helpOneHeading">
+                  Industry
+                </span>
+                <div class="text-muted ms-auto">
+                  <span class="fs-sm me-4 d-none d-md-inline">
+                  </span>
+                </div>
+              </div>
+              <div class="accordion-collapse collapse" id="helpOne" aria-labelledby="helpOneHeading"
+                data-bs-parent="#helpAccordionOne">
+                <div class="accordion-body">
+                  <div class="d-flex">
+                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <i class="fe fe-check"></i>
+                    </div>
+                    <p class="mb-2"><small>Federal Governement</small></p>
+                  </div>                
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#helpTwo"
+                aria-expanded="false" aria-controls="helpTwo">
+                <span class="me-4 fw-bold h4" id="helpTwoHeading">
+                  Type
+                </span>
+                <div class="text-muted ms-auto">
+                  <span class="fs-sm me-4 d-none d-md-inline">
+                  </span>
+                </div>
+              </div>
+              <div class="accordion-collapse collapse" id="helpTwo" aria-labelledby="helpTwoHeading"
+                data-bs-parent="#helpAccordionOne">
+                <div class="accordion-body">
+                  <div class="d-flex">
+                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <i class="fe fe-check"></i>
+                    </div>
+                    <p class="mb-2"><small>Collaborative Intranet + Mobile</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-button collapsed" role="button" data-bs-toggle="collapse"
+                data-bs-target="#helpThree" aria-expanded="false" aria-controls="helpThree">
+                <span class="me-4 fw-bold h4" id="helpThreeHeading">
+                  Services
+                </span>
+                <div class="text-muted ms-auto">
+                  <span class="fs-sm me-4 d-none d-md-inline">
+                  </span>
+                </div>
+              </div>
+              <div class="accordion-collapse collapse" id="helpThree" aria-labelledby="helpThreeHeading"
+                data-bs-parent="#helpAccordionOne">
+                <div class="accordion-body">
+                  <div class="d-flex">
+                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <i class="fe fe-check"></i>
+                    </div>
+                    <p class="mb-2"><small>Information Architecture</small></p>
+                  </div>
+                  <div class="d-flex">
+                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <i class="fe fe-check"></i>
+                    </div>
+                    <p class="mb-2"><small>Drupal Consulting</small></p>
+                  </div>
+                  <div class="d-flex">
+                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <i class="fe fe-check"></i>
+                    </div>
+                    <p class="mb-2"><small>System Integration</small></p>
+                  </div>
+                  <div class="d-flex">
+                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <i class="fe fe-check"></i>
+                    </div>
+                    <p class="mb-2"><small>Migration</small></p>
+                  </div>
+                  <div class="d-flex">
+                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <i class="fe fe-check"></i>
+                    </div>
+                    <p class="mb-2"><small>Drupal Theming</small></p>
+                  </div>
+                  <div class="d-flex">
+                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <i class="fe fe-check"></i>
+                    </div>
+                    <p class="mb-2"><small>Usability</small></p>
+                  </div>
+                  <div class="d-flex">
+                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <i class="fe fe-check"></i>
+                    </div>
+                    <p class="mb-2"><small>Project Management</small></p>
+                  </div>
+                  <div class="d-flex">
+                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <i class="fe fe-check"></i>
+                    </div>
+                    <p class="mb-2"><small>Testing</small></p>
+                  </div>
+                  <div class="d-flex">
+                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <i class="fe fe-check"></i>
+                    </div>
+                    <p class="mb-2"><small>WCAG Accessibility</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#helpFour"
+                aria-expanded="false" aria-controls="helpFour">
+                <span class="me-4 fw-bold h4" id="helpFourHeading">
+                  Technology
+                </span>
+                <div class="text-muted ms-auto">
+                  <span class="fs-sm me-4 d-none d-md-inline">
+                  </span>
+                </div>
+              </div>
+              <div class="accordion-collapse collapse" id="helpFour" aria-labelledby="helpFourHeading"
+                data-bs-parent="#helpAccordionOne">
+                <div class="accordion-body">
+                  <div class="d-flex">
+                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <i class="fe fe-check"></i>
+                    </div>
+                    <p class="mb-2"><small><a href="{{webRoot}}/services/technology.html"
+                          class="text-primary">Drupal</a></small></p>
+                  </div>
+                  <div class="d-flex">
+                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <i class="fe fe-check"></i>
+                    </div>
+                    <p class="mb-2"><small><a href="{{webRoot}}/services/technology.html"
+                          class="text-primary">Web Experience Toolkit (WxT)</a></small></p>
+                  </div>
+                  <div class="d-flex">
+                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <i class="fe fe-check"></i>
+                    </div>
+                    <p class="mb-2"><small><a href="{{webRoot}}/services/technology.html"
+                          class="text-primary">Solr Search</a></small></p>
+                  </div>
+                  <div class="d-flex">
+                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <i class="fe fe-check"></i>
+                    </div>
+                    <p class="mb-2"><small><a href="{{webRoot}}/services/technology.html"
+                          class="text-primary">LDAP</a></small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="position-relative">
+    <div class="shape shape-bottom shape-fluid-x text-light">
+      {{> curves/curve-1}}
+    </div>
+  </div>
+
+
+  <section class="py-8 py-md-12 bg-white">
+    <div class="container">
+      <div class="row justify-content-center mb-6 md-mb-12">
+        <div class="col-12 text-center">
+          <h2 class="fw-bold cb-title-dark">
+            Project highlights
+          </h2>
+          <p class="mb-0">
+            Multilingual. Accessible. OpenSource.
+          </p>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6" data-aos="fade-up">
+          <div class="mb-6 mb-md-0 text-center">
+            <img src="{{webRoot}}/assets/img/extra/health-intra-user.png" class="border img-fluid">
+          </div>
+        </div>
+        <div class="col-12 col-md-6" data-aos="fade-up">
+          <div class="mb-6 mb-md-0 text-center">
+            <img src="{{webRoot}}/assets/img/extra/ss-healthcanada-wxt4.png" class="border img-fluid" style="max-height: 367px;width:100%;">
+          </div>
+        </div>
+        <div class="col-12 col-md-12 mt-2 mt-md-8" data-aos="fade-up">
+          <div class="d-flex mb-3 mb-md-4">
+            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+            <p class="mb-2"><small><b>Redeveloping</b> HC and PHAC's websites and providing a new web content management system using DrupalWxT to manage the website.</small></p>
+          </div>
+          <div class="d-flex mb-3 mb-md-4">
+            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+            <p class="mb-2"><small><b></b>Personalized</b> a customized landing pages on a user identification/location basis.</small></p>
+          </div>
+          <div class="d-flex mb-3 mb-md-4">
+            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+            <p class="mb-2"><small><b>Mobile responsive</b> ready intranet.</small></p>
+          </div>
+          <div class="d-flex mb-3 mb-md-4">
+            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+            <p class="mb-2"><small><b>Publishing workflow</b> that supports peer review and revision control.</small></p>
+          </div>
+          <div class="d-flex mb-3 mb-md-4">
+            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+            <p class="mb-2"><small><b>Consulting</b> on the best practices of adoption surrounding Drupal7WxT in collaboration with other data systems held by HC/PHAC.</small></p>
+          </div>
+          <div class="d-flex mb-3 mb-md-4">
+            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+            <p class="mb-2"><small><b>Training</b> for internal employees during the transition process and supported the management, administration and extension of the platform.</small></p>
+          </div>
+          <div class="d-flex mb-3 mb-md-4">
+            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+            <p class="mb-2"><small><b>Collaborative efforts</b> among HC/PHAC/SSC developers to develop the application code in a test environment, conduct systems tests, assist with user acceptance testing and implement application into production.</small></p>
+          </div>
+          <div class="d-flex">
+            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+            <p class="mb-2"><small><b>Threat Risk Assessment</b> with Health Canada Project Team, Security Staff, and Shared Services Canada to conduct a full Threat Risk Assessment on the Drupal infrastructure and Drupal software architecture to ensure compliance with Government of Canada standards. This TRA included review and recommendations for website security, risk evaluations on software and infrastructure, preventative security activities, failure resolution testing, and in-depth risk assessments of code and impact of hacks and intrusions.</small></p>
+          </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-8 py-md-10">
+    <div class="container">
+      <div class="row justify-content-center mb-4 mb-md-6">
+        <div class="col-12 text-center">
+          <h2 class="fw-bold cb-title-dark">
+            Technologies & Accessibility
+          </h2>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-12 col-md-4" data-aos="fade-up">
+          <div class="d-flex">
+            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+            <p class="mb-2"><small>LDAP and Novell identity platforms</small></p>
+          </div>
+          <div class="d-flex">
+            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+            <p class="mb-2"><small>RSS structured publishing feeds</small></p>
+          </div>
+          <div class="d-flex">
+            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+            <p class="mb-2"><small>XML</small></p>
+          </div>
+          <div class="d-flex">
+            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+            <p class="mb-2"><small>HTML5 & CSS3</small></p>
+          </div>        
+        </div>
+        <div class="col-12 col-md-4" data-aos="fade-up">
+          <div class="d-flex">
+            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+            <p class="mb-2"><small>Web Analytics (Google Analytics)</small></p>
+          </div>
+          <div class="d-flex">
+            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+            <p class="mb-2"><small>Drupal web content management system</small></p>
+          </div> 
+          <div class="d-flex">
+            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+            <p class="mb-2"><small>Apache Web Server</small></p>
+          </div>
+          <div class="d-flex">
+            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+            <p class="mb-2"><small>SOLR Search Engine (TBD)</small></p>
+          </div>                   
+        </div>       
+        <div class="col-12 col-md-4" data-aos="fade-up">
+          <div class="d-flex">
+            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+            <p class="mb-2"><small>My SQL database</small></p>
+          </div>
+          <div class="d-flex">
+            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+            <p class="mb-2"><small>PHP server side scripting language</small></p>
+          </div>
+          <div class="d-flex">
+            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+              <i class="fe fe-check"></i>
+            </div>
+            <p class="mb-2"><small>IBM Lotus Notes framework</small></p>
+          </div>   
+          <div class="d-flex">
+            <br>
+          </div>       
+        </div> 
+        <div class="col-12 col-md-12 text-center mt-0 mt-md-8" data-aos="fade-up">
+          <p class="text-primary mb-0">
+            <small>Website meets Treasury Board accessibility policies WCAG 2.0. OpenPlus worked with project team to test accessibility standards and ensure content providers understand accessibility needs and requirements.
+            </small>
+          </p>
+        </div>     
+      </div>
+    </div>
+  </section> 
+
+  <section class="py-8 py-md-8 bg-primary">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-8">
+          <h2 class="fw-bold mb-0 text-center text-white text-md-start mb-5 mb-md-0">
+            For a full case study on this project, please
+          </h2>
+        </div>
+        <div class="col-12 col-md-4 text-center">
+          <p class="mb-0">
+              <a href="{{webRoot}}/contact/" target="_blank" class="btn btn-white lift">Contact Us</a>
+          </p>
+        </div>        
+      </div>
+    </div>
+  </section>
+
+  <div class="position-relative">
+    <div class="shape shape-bottom shape-fluid-x text-gray-200">
+      {{> curves/curve-1}}
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  {{> partials/footer classList="bg-gray-200"}}
+
+  <!-- JAVASCRIPT -->
+  {{> partials/scripts}}
+
+</body>
+
+</html>
