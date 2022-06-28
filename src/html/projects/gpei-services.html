@@ -1,264 +1,464 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
+  <head>
+    {{> partials/head title="Government of Prince Edward Island (GPEI) eServices
+    Portal - OpenPlus" description="Project brief for the Government of Prince
+    Edward Island eService Portal." keywords="government, drupal, drupalwxt,
+    drupal wxt, wet, drupalwet, drupal wet, web forms, webforms, online forms,
+    online service, eservices, e-services, digital transformation, drupal theme,
+    drupal integration, alfreso, moneris, drupal alfreso, drupal moneris,
+    canada, solr, accessbility, wcag, design, creative, information
+    architecture" }}
+  </head>
 
-<head>
-  {{> partials/head
-  title="Government of Prince Edward Island (GPEI) eServices Portal - OpenPlus"
-  description="Project brief for the Government of Prince Edward Island eService Portal."
-  keywords="government, drupal, drupalwxt, drupal wxt, wet, drupalwet, drupal wet, web forms, webforms, online forms,
-  online service, eservices, e-services, digital transformation, drupal theme, drupal integration, alfreso, moneris,
-  drupal alfreso, drupal moneris, canada, solr, accessbility, wcag, design, creative, information architecture"
-  }}
-</head>
+  <body class="bg-light">
+    <!-- NAVBAR -->
 
-<body class="bg-light">
+    {{> partials/navbar classList="navbar-light bg-white" container="container"
+    button="primary"}}
 
-  <!-- NAVBAR -->
-  {{> partials/navbar classList="navbar-light bg-white" container="container" button="primary"}}
+    <section
+      class="py-8 py-md-11 bg-primary bg-cover"
+      id="welcome"
+      style="background-image: url({{webRoot}}/assets/img/extra/gpei-services-mian-cover.png);"
+    >
+      <div class="shape shape-blur-3 text-white">
+        <svg
+          viewBox="0 0 1738 487"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h1420.92s713.43 457.505 0 485.868C707.502 514.231 0 0 0 0z"
+            fill="url(#paint0_linear)"
+          ></path>
 
-  <section class="py-8 py-md-11 bg-primary bg-cover" id="welcome" style="background-image: url({{webRoot}}/assets/img/extra/gpei-services-mian-cover.png);">
-    <div class="shape shape-blur-3 text-white">
-      <svg viewBox="0 0 1738 487" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M0 0h1420.92s713.43 457.505 0 485.868C707.502 514.231 0 0 0 0z" fill="url(#paint0_linear)"></path>
-        <defs>
-          <linearGradient id="paint0_linear" x1="0" y1="0" x2="1049.98" y2="912.68" gradientUnits="userSpaceOnUse">
-            <stop stop-color="currentColor" stop-opacity=".075"></stop>
-            <stop offset="1" stop-color="currentColor" stop-opacity="0"></stop>
-          </linearGradient>
-        </defs>
-      </svg>
-    </div>
-    <div class="container">
-      <div class="row justify-content-center align-items-center">
-        <div class="col-12 col-md-7 col-lg-7 mb-5 aos-init aos-animate" data-aos="fade-up">
-          <h1 class="text-center text-md-start text-white fw-bold">
-            Government of Prince Edward Island - eServices Portal
-          </h1>
-          <p class="text-md-start text-white mb-6 mb-lg-6">
-            The province of Prince Edward Island is located on the east coast of Canada and is connected to the mainland
-            by the Confederation Bridge. It’s the smallest and greenest province. The Island is a place of natural
-            beauty where the air and water are fresh and clean.
-            <br><br>
-            The government of Prince Edward Island (GPEI) wished to create a modern and versatile online Webforms and
-            eServices portal to meet current compliance and mobility capabilities. GPEI approached OpenPlus in need of a
-            solution that allows them to build and deploy eServices with three main objectives.
-          </p>
-          <div class="d-flex">
-            <div class="badge badge-rounded-circle bg-white mt-1 me-4">
-              <i class="fe fe-check text-primary" style="margin-top: 1px;"></i>
+          <defs>
+            <linearGradient
+              id="paint0_linear"
+              x1="0"
+              y1="0"
+              x2="1049.98"
+              y2="912.68"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="currentColor" stop-opacity=".075"></stop>
+
+              <stop
+                offset="1"
+                stop-color="currentColor"
+                stop-opacity="0"
+              ></stop>
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div
+            class="col-12 col-md-7 col-lg-7 mb-5 aos-init aos-animate"
+            data-aos="fade-up"
+          >
+            <h1 class="text-center text-md-start text-white fw-bold">
+              Government of Prince Edward Island - eServices Portal
+            </h1>
+
+            <p class="text-md-start text-white mb-6 mb-lg-6">
+              The province of Prince Edward Island is located on the east coast
+              of Canada and is connected to the mainland by the Confederation
+              Bridge. It’s the smallest and the greenest province. The Island is
+              a place of natural beauty where the air and water are fresh and
+              clean.
+            </p>
+            <p>
+              The government of Prince Edward Island (GPEI) wished to create a
+              modern and versatile online Webforms and eServices portal to meet
+              current compliance and mobility capabilities. GPEI approached
+              OpenPlus in need of a solution that allows them to build and
+              deploy eServices with three main objectives.
+            </p>
+
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle bg-white mt-1 me-4">
+                <i class="fe fe-check text-primary" style="margin-top: 1px"></i>
+              </div>
+
+              <p class="mb-2 text-white">
+                <small>Generic Online Forms for eServices</small>
+              </p>
             </div>
-            <p class="mb-2 text-white"><small>Generic Online Forms for eServices</small></p>
+
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle bg-white mt-1 me-4">
+                <i class="fe fe-check text-primary" style="margin-top: 1px"></i>
+              </div>
+
+              <p class="mb-2 text-white"><small>Quick Deployment</small></p>
+            </div>
+
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle bg-white mt-1 me-4">
+                <i class="fe fe-check text-primary" style="margin-top: 1px"></i>
+              </div>
+
+              <p class="mb-2 text-white">
+                <small>Integration with 3rd Party Systems</small>
+              </p>
+            </div>
+
+            <div class="text-center text-md-start mt-5">
+              <a
+                href="https://www.princeedwardisland.ca/en/services"
+                class="btn btn-white shadow lift me-1"
+                target="_blank"
+                >Visit eServices Portal</a
+              >
+            </div>
           </div>
-          <div class="d-flex">
-            <div class="badge badge-rounded-circle bg-white mt-1 me-4">
-              <i class="fe fe-check text-primary" style="margin-top: 1px;"></i>
-            </div>
-            <p class="mb-2 text-white"><small>Quick Deployment</small></p>
-          </div>
-          <div class="d-flex">
-            <div class="badge badge-rounded-circle bg-white mt-1 me-4">
-              <i class="fe fe-check text-primary" style="margin-top: 1px;"></i>
-            </div>
-            <p class="mb-2 text-white"><small>Integration with 3rd Party Systems</small></p>
-          </div>
-          <div class="text-center text-md-start mt-5">
-            <a href="https://www.princeedwardisland.ca/en/services" class="btn btn-white shadow lift me-1"
-              target="_blank">Visit eServices Portal</a>
-          </div>
-        </div>
-        <div class="col-12 col-md-5 col-lg-5 aos-init aos-animate" data-aos="fade-up">
-          <div class="accordion shadow-light-lg mb-md-6" id="helpAccordionOne">
-            <div class="accordion-item">
-              <div class="accordion-button" role="button">
-                <div class="mx-auto">
-                  <h4 class="fw-bold mb-0">
-                    <img class="figure-img img-fluid rounded mb-0"
-                      src="{{webRoot}}/assets/img/extra/prince-edward-island.png">
-                  </h4>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <div class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#helpOne"
-                aria-expanded="false" aria-controls="helpOne">
-                <span class="me-4 fw-bold h4" id="helpOneHeading">
-                  Industry
-                </span>
-                <div class="text-muted ms-auto">
-                  <span class="fs-sm me-4 d-none d-md-inline">
-                  </span>
-                </div>
-              </div>
-              <div class="accordion-collapse collapse" id="helpOne" aria-labelledby="helpOneHeading"
-                data-bs-parent="#helpAccordionOne">
-                <div class="accordion-body">
-                  <div class="d-flex">
-                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                    <p class="mb-2"><small>Provincial</small></p>
-                  </div>
-                  <div class="d-flex">
-                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                    <p class="mb-2"><small>Government</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <div class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#helpTwo"
-                aria-expanded="false" aria-controls="helpTwo">
-                <span class="me-4 fw-bold h4" id="helpTwoHeading">
-                  Type
-                </span>
-                <div class="text-muted ms-auto">
-                  <span class="fs-sm me-4 d-none d-md-inline">
-                  </span>
-                </div>
-              </div>
-              <div class="accordion-collapse collapse" id="helpTwo" aria-labelledby="helpTwoHeading"
-                data-bs-parent="#helpAccordionOne">
-                <div class="accordion-body">
-                  <div class="d-flex">
-                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                    <p class="mb-2"><small>Provincial Website</small></p>
-                  </div>
-                  <div class="d-flex">
-                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                    <p class="mb-2"><small>Online Services</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <div class="accordion-button collapsed" role="button" data-bs-toggle="collapse"
-                data-bs-target="#helpThree" aria-expanded="false" aria-controls="helpThree">
-                <span class="me-4 fw-bold h4" id="helpThreeHeading">
-                  Services
-                </span>
-                <div class="text-muted ms-auto">
-                  <span class="fs-sm me-4 d-none d-md-inline">
-                  </span>
-                </div>
-              </div>
-              <div class="accordion-collapse collapse" id="helpThree" aria-labelledby="helpThreeHeading"
-                data-bs-parent="#helpAccordionOne">
-                <div class="accordion-body">
-                  <div class="d-flex">
-                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                    <p class="mb-2"><small>Drupal Development</small></p>
-                  </div>
-                  <div class="d-flex">
-                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                    <p class="mb-2"><small>Drupal Consulting</small></p>
-                  </div>
-                  <div class="d-flex">
-                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                    <p class="mb-2"><small>Web Design</small></p>
-                  </div>
-                  <div class="d-flex">
-                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                    <p class="mb-2"><small>Drupal Theming</small></p>
-                  </div>
-                  <div class="d-flex">
-                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                    <p class="mb-2"><small>Content Migration</small></p>
-                  </div>
-                  <div class="d-flex">
-                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                    <p class="mb-2"><small>Drupal Training</small></p>
-                  </div>
-                  <div class="d-flex">
-                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                    <p class="mb-2"><small>Project Management</small></p>
-                  </div>
-                  <div class="d-flex">
-                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                    <p class="mb-2"><small>Testing</small></p>
-                  </div>
-                  <div class="d-flex">
-                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                    <p class="mb-2"><small>WCAG Accessibility</small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <div class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#helpFour"
-                aria-expanded="false" aria-controls="helpFour">
-                <span class="me-4 fw-bold h4" id="helpFourHeading">
-                  Technology
-                </span>
-                <div class="text-muted ms-auto">
-                  <span class="fs-sm me-4 d-none d-md-inline">
-                  </span>
-                </div>
-              </div>
-              <div class="accordion-collapse collapse" id="helpFour" aria-labelledby="helpFourHeading"
-                data-bs-parent="#helpAccordionOne">
-                <div class="accordion-body">
-                  <div class="d-flex">
-                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                    <p class="mb-2"><small><a href="{{webRoot}}/services/technology.html"
-                          class="text-primary">Drupal</a></small></p>
-                  </div>
-                  <div class="d-flex">
-                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                    <p class="mb-2"><small><a href="{{webRoot}}/services/technology.html" class="text-primary">Web
-                          Experience Toolkit (WxT)</a></small></p>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-            <div class="accordion-item">
-              <div class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#helpFive"
-                aria-expanded="false" aria-controls="helpFive">
-                <span class="me-4 fw-bold h4" id="helpFiveHeading">
-                  Website
-                </span>
-                <div class="text-muted ms-auto">
-                  <span class="fs-sm me-4 d-none d-md-inline">
-                  </span>
+          <div
+            class="col-12 col-md-5 col-lg-5 aos-init aos-animate"
+            data-aos="fade-up"
+          >
+            <div
+              class="accordion shadow-light-lg mb-md-6"
+              id="helpAccordionOne"
+            >
+              <div class="accordion-item">
+                <div class="accordion-button" role="button">
+                  <div class="mx-auto">
+                    <h4 class="fw-bold mb-0">
+                      <img
+                        class="figure-img img-fluid rounded mb-0"
+                        src="{{webRoot}}/assets/img/extra/prince-edward-island.png"
+                      />
+                    </h4>
+                  </div>
                 </div>
               </div>
-              <div class="accordion-collapse collapse" id="helpFive" aria-labelledby="helpFiveHeading"
-                data-bs-parent="#helpAccordionOne">
-                <div class="accordion-body">
-                  <div class="d-flex">
-                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
+
+              <div class="accordion-item">
+                <div
+                  class="accordion-button collapsed"
+                  role="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#helpOne"
+                  aria-expanded="false"
+                  aria-controls="helpOne"
+                >
+                  <span class="me-4 fw-bold h4" id="helpOneHeading">
+                    Industry
+                  </span>
+
+                  <div class="text-muted ms-auto">
+                    <span class="fs-sm me-4 d-none d-md-inline"> </span>
+                  </div>
+                </div>
+
+                <div
+                  class="accordion-collapse collapse"
+                  id="helpOne"
+                  aria-labelledby="helpOneHeading"
+                  data-bs-parent="#helpAccordionOne"
+                >
+                  <div class="accordion-body">
+                    <div class="d-flex">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
+                        <i class="fe fe-check"></i>
+                      </div>
+
+                      <p class="mb-2"><small>Provincial</small></p>
                     </div>
-                    <p class="mb-2"><small><a href="https://www.princeedwardisland.ca/en/services"
-                          class="text-primary">eServices Portal</a></small></p>
+
+                    <div class="d-flex">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
+                        <i class="fe fe-check"></i>
+                      </div>
+
+                      <p class="mb-2"><small>Government</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <div
+                  class="accordion-button collapsed"
+                  role="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#helpTwo"
+                  aria-expanded="false"
+                  aria-controls="helpTwo"
+                >
+                  <span class="me-4 fw-bold h4" id="helpTwoHeading">
+                    Type
+                  </span>
+
+                  <div class="text-muted ms-auto">
+                    <span class="fs-sm me-4 d-none d-md-inline"> </span>
+                  </div>
+                </div>
+
+                <div
+                  class="accordion-collapse collapse"
+                  id="helpTwo"
+                  aria-labelledby="helpTwoHeading"
+                  data-bs-parent="#helpAccordionOne"
+                >
+                  <div class="accordion-body">
+                    <div class="d-flex">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
+                        <i class="fe fe-check"></i>
+                      </div>
+
+                      <p class="mb-2"><small>Provincial Website</small></p>
+                    </div>
+
+                    <div class="d-flex">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
+                        <i class="fe fe-check"></i>
+                      </div>
+
+                      <p class="mb-2"><small>Online Services</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <div
+                  class="accordion-button collapsed"
+                  role="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#helpThree"
+                  aria-expanded="false"
+                  aria-controls="helpThree"
+                >
+                  <span class="me-4 fw-bold h4" id="helpThreeHeading">
+                    Services
+                  </span>
+
+                  <div class="text-muted ms-auto">
+                    <span class="fs-sm me-4 d-none d-md-inline"> </span>
+                  </div>
+                </div>
+
+                <div
+                  class="accordion-collapse collapse"
+                  id="helpThree"
+                  aria-labelledby="helpThreeHeading"
+                  data-bs-parent="#helpAccordionOne"
+                >
+                  <div class="accordion-body">
+                    <div class="d-flex">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
+                        <i class="fe fe-check"></i>
+                      </div>
+
+                      <p class="mb-2"><small>Drupal Development</small></p>
+                    </div>
+
+                    <div class="d-flex">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
+                        <i class="fe fe-check"></i>
+                      </div>
+
+                      <p class="mb-2"><small>Drupal Consulting</small></p>
+                    </div>
+
+                    <div class="d-flex">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
+                        <i class="fe fe-check"></i>
+                      </div>
+
+                      <p class="mb-2"><small>Web Design</small></p>
+                    </div>
+
+                    <div class="d-flex">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
+                        <i class="fe fe-check"></i>
+                      </div>
+
+                      <p class="mb-2"><small>Drupal Theming</small></p>
+                    </div>
+
+                    <div class="d-flex">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
+                        <i class="fe fe-check"></i>
+                      </div>
+
+                      <p class="mb-2"><small>Content Migration</small></p>
+                    </div>
+
+                    <div class="d-flex">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
+                        <i class="fe fe-check"></i>
+                      </div>
+
+                      <p class="mb-2"><small>Drupal Training</small></p>
+                    </div>
+
+                    <div class="d-flex">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
+                        <i class="fe fe-check"></i>
+                      </div>
+
+                      <p class="mb-2"><small>Project Management</small></p>
+                    </div>
+
+                    <div class="d-flex">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
+                        <i class="fe fe-check"></i>
+                      </div>
+
+                      <p class="mb-2"><small>Testing</small></p>
+                    </div>
+
+                    <div class="d-flex">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
+                        <i class="fe fe-check"></i>
+                      </div>
+
+                      <p class="mb-2"><small>WCAG Accessibility</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <div
+                  class="accordion-button collapsed"
+                  role="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#helpFour"
+                  aria-expanded="false"
+                  aria-controls="helpFour"
+                >
+                  <span class="me-4 fw-bold h4" id="helpFourHeading">
+                    Technology
+                  </span>
+
+                  <div class="text-muted ms-auto">
+                    <span class="fs-sm me-4 d-none d-md-inline"> </span>
+                  </div>
+                </div>
+
+                <div
+                  class="accordion-collapse collapse"
+                  id="helpFour"
+                  aria-labelledby="helpFourHeading"
+                  data-bs-parent="#helpAccordionOne"
+                >
+                  <div class="accordion-body">
+                    <div class="d-flex">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
+                        <i class="fe fe-check"></i>
+                      </div>
+
+                      <p class="mb-2">
+                        <small
+                          ><a
+                            href="{{webRoot}}/services/technology.html"
+                            class="text-primary"
+                            >Drupal</a
+                          ></small
+                        >
+                      </p>
+                    </div>
+
+                    <div class="d-flex">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
+                        <i class="fe fe-check"></i>
+                      </div>
+
+                      <p class="mb-2">
+                        <small
+                          ><a
+                            href="{{webRoot}}/services/technology.html"
+                            class="text-primary"
+                            >Web Experience Toolkit (WxT)</a
+                          ></small
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <div
+                  class="accordion-button collapsed"
+                  role="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#helpFive"
+                  aria-expanded="false"
+                  aria-controls="helpFive"
+                >
+                  <span class="me-4 fw-bold h4" id="helpFiveHeading">
+                    Website
+                  </span>
+
+                  <div class="text-muted ms-auto">
+                    <span class="fs-sm me-4 d-none d-md-inline"> </span>
+                  </div>
+                </div>
+
+                <div
+                  class="accordion-collapse collapse"
+                  id="helpFive"
+                  aria-labelledby="helpFiveHeading"
+                  data-bs-parent="#helpAccordionOne"
+                >
+                  <div class="accordion-body">
+                    <div class="d-flex">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
+                        <i class="fe fe-check"></i>
+                      </div>
+
+                      <p class="mb-2">
+                        <small
+                          ><a
+                            href="https://www.princeedwardisland.ca/en/services"
+                            class="text-primary"
+                            >eServices portal</a
+                          ></small
+                        >
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -266,406 +466,528 @@
           </div>
         </div>
       </div>
+    </section>
+
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x text-light">
+        {{> curves/curve-1}}
+      </div>
     </div>
-  </section>
 
+    <section class="py-8 py-md-10 bg-white">
+      <div class="container">
+        <div class="row align-items-center text-center">
+          <div class="col-12 col-md-12 mb-md-6 md-6" data-aos="fade-up">
+            <h2 class="fw-bold cb-title-dark">The Challenge</h2>
 
-  <div class="position-relative">
-    <div class="shape shape-bottom shape-fluid-x text-light">
-      {{> curves/curve-1}}
-    </div>
-  </div>
-
-
-  <section class="py-8 py-md-10 bg-white">
-    <div class="container">
-      <div class="row align-items-center text-center">
-        <div class="col-12 col-md-12 mb-md-6 md-6" data-aos="fade-up">
-          <h2 class="fw-bold cb-title-dark">
-            The Challenge
-            </h1>
             <p class="mb-6 mb-md-0">
-              The Government of Prince Edward Island (GPEI) approached OpenPlus in need of a solution that allows them
-              to build and deploy eServices with three main objectives.
+              The Government of Prince Edward Island (GPEI) approached OpenPlus
+              in need of a solution that allows them to build and deploy
+              eServices with three main objectives.
             </p>
-        </div>
-        <div class="col-12 col-md-4 shadow-light-lg bg-white p-md-5 p-5 rounded mb-md-7" data-aos="fade-up">
-          <div class="mx-auto">
-            <img class="figure-img img-fluid" src="{{webRoot}}/assets/img/extra/versatile-icon.png">
           </div>
-          <p class="fs-lg text-primary fw-bold">
-            Versatile Online Forms
-          </p>
-          <p class="fs-sm">
-            The solution had to be generic; yet versatile that can support a wide range of Online Services and Web Forms
-            with complex workflows and business requirements.
-          </p>
-        </div>
-        <div class="col-12 col-md-4 shadow-light-lg bg-white p-md-5 p-5 rounded mb-md-7" data-aos="fade-up">
-          <div class="mx-auto">
-            <img class="figure-img img-fluid" src="{{webRoot}}/assets/img/extra/quick-deployment-icon.png">
+
+          <div
+            class="col-12 col-md-4 shadow-light-lg bg-white p-md-5 p-5 rounded mb-md-7"
+            data-aos="fade-up"
+          >
+            <div class="mx-auto">
+              <img
+                class="figure-img img-fluid"
+                src="{{webRoot}}/assets/img/extra/versatile-icon.png"
+              />
+            </div>
+
+            <p class="fs-lg text-primary fw-bold">Versatile online forms</p>
+
+            <p class="fs-sm">
+              The solution had to be generic; yet versatile that can support a
+              wide range of Online Services and Web Forms with complex workflows
+              and business requirements.
+            </p>
           </div>
-          <p class="fs-lg text-primary fw-bold">
-            Quick Deployment
-          </p>
-          <p class="fs-sm">
-            In order to meet the growing demand for online services, it was important for GEPI to be able to prototype,
-            build and deploy services quickly.
-          </p>
-        </div>
-        <div class="col-12 col-md-4 shadow-light-lg bg-white p-md-5 p-5 rounded mb-md-7" data-aos="fade-up">
-          <div class="mx-auto">
-            <img class="figure-img img-fluid" src="{{webRoot}}/assets/img/extra/integration-icon.png">
+
+          <div
+            class="col-12 col-md-4 shadow-light-lg bg-white p-md-5 p-5 rounded mb-md-7"
+            data-aos="fade-up"
+          >
+            <div class="mx-auto">
+              <img
+                class="figure-img img-fluid"
+                src="{{webRoot}}/assets/img/extra/quick-deployment-icon.png"
+              />
+            </div>
+
+            <p class="fs-lg text-primary fw-bold">Quick deployment</p>
+
+            <p class="fs-sm">
+              In order to meet the growing demand for online services, it was
+              important for GEPI to be able to prototype, build and deploy
+              services quickly.
+            </p>
           </div>
-          <p class="fs-lg text-primary fw-bold">
-            Integration with 3rd Party Systems
-          </p>
-          <p class="fs-sm">
-            GPEI needed a solution that can be easily integrated with their current back-end systems while being future
-            proof for new systems.
-          </p>
+
+          <div
+            class="col-12 col-md-4 shadow-light-lg bg-white p-md-5 p-5 rounded mb-md-7"
+            data-aos="fade-up"
+          >
+            <div class="mx-auto">
+              <img
+                class="figure-img img-fluid"
+                src="{{webRoot}}/assets/img/extra/integration-icon.png"
+              />
+            </div>
+
+            <p class="fs-lg text-primary fw-bold">
+              Integration with 3<sup>rd</sup> party systems
+            </p>
+
+            <p class="fs-sm">
+              GPEI needed a solution that can be easily integrated with their
+              current back-end systems while being future proof for new systems.
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="py-8 py-md-10">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-12 col-md-5 order-md-2" data-aos="fade-up">
-          <div class="mb-6 mb-md-0">
-            <img src="{{webRoot}}/assets/img/extra/workflow.png" class="img-fluid">
+    <section class="py-8 py-md-10">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-5 order-md-2" data-aos="fade-up">
+            <div class="mb-6 mb-md-0">
+              <img
+                src="{{webRoot}}/assets/img/extra/workflow.png"
+                class="img-fluid"
+              />
+            </div>
           </div>
-        </div>
-        <div class="col-12 col-md-7 order-md-1" data-aos="fade-up">
-          <h2 class="fw-bold lb-title-dark">
-            Analysis
-          </h2>
-          <p>
-            OpenPlus began by meeting with variety of stakeholders to understand the user and business requirements,
-            analyze current online and paper services and all the back-end systems that we need to interact with.
-            <br><br>
-            These insights we gain, was the foundation for identifying an opportunity to introduce the eServices product
-            with a vision to help the Government of PEI to quickly build and deploy their online services, while keeping
-            their current infrastructure.
-            <br><br>
-            We have built many workflow maps to illustrate the different type of services, the processing of those
-            services and the interactions with back-end systems. Our strategy was approved, and we proceeded with our
-            solution.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <section class="py-6 py-md-10 bg-white">
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-12 col-md-12 text-center mb-0" data-aos="fade-up">
-          <h2 class="fw-bold cb-title-dark">
-            Our Solution
-            </h1>
+          <div class="col-12 col-md-7 order-md-1" data-aos="fade-up">
+            <h2 class="fw-bold lb-title-dark">Analysis</h2>
+
             <p>
-              Web forms
+              OpenPlus began by meeting with a variety of stakeholders to
+              understand the user and business requirements, analyze current
+              online and paper services and all the back-end systems that we
+              need to interact with.
+
+              <br /><br />
+
+              These insights we gain, was the foundation for identifying an
+              opportunity to introduce the eServices product with a vision to
+              help the Government of PEI to quickly build and deploy their
+              online services, while keeping their current infrastructure.
+
+              <br /><br />
+
+              We have built many workflow maps to illustrate the different type
+              of services, the processing of those services and the interactions
+              with back-end systems. Our strategy was approved, and we proceeded
+              with our solution.
             </p>
-        </div>
-      </div>
-
-      <div class="row align-items-center mb-8 mb-md-8 bg-light p-5 py-md-5">
-        <div class="col-12 col-md-6 order-md-2" data-aos="fade-up">
-          <div class="mb-6 mb-md-0 text-center">
-            <img src="{{webRoot}}/assets/img/extra/eservices-ss.png" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-12 col-md-6 order-md-1" data-aos="fade-up">
-          <p class="fs-lg text-primary">
-            A Versatile and Generic Solution
-          </p>
-          <p>
-            OpenPlus has built a solution that can encompass a variant of online forms. Using our solution, it's
-            extremely easy to create online forms that can be used as standard fillable forms, to multi-step forms, with
-            attachments, payment, workflows, notifications, and so on.
-            <br><br>
-            Using our solution, GPEI is now able to build a range of eServices, from simple information requests to
-            complex workflows, with calculations and payment processing with full integration with their current
-            systems.
-          </p>
-        </div>
-      </div>
-
-
-      <div class="row align-items-center mb-8 mb-md-8 bg-light p-5 py-md-5">
-        <div class="col-12 col-md-6 order-2" data-aos="fade-up">
-          <p class="fs-lg text-primary">
-            Service Discovery
-          </p>
-          <p>
-            Service Discovery is the main landing page that collects and displays all services, regardless if it’s an
-            online service, offline or that points to an external service.
-            <br><br>
-            The benefit of the Service Discovery page is that all services are indexed in one place, which helps the
-            users to find and search all services.
-          </p>
-        </div>
-        <div class="col-12 col-md-6 order-1" data-aos="fade-up">
-          <div class="mb-6 mb-md-0 text-center">
-            <img src="{{webRoot}}/assets/img/extra/eservices-discovery.png" class="img-fluid">
           </div>
         </div>
       </div>
+    </section>
 
-      <div class="row align-items-center mb-8 mb-md-8 bg-light p-5 py-md-5">
-        <div class="col-12 col-md-7" data-aos="fade-up">
-          <p class="fs-lg text-primary">
-            Standardization and Service Templates
-          </p>
-          <p>
-            We have created Service Templates to standardize the different services into common and generic service. The
-            template contains common settings such as is the payment required, does it require a PDF upload, and based
-            on the service request the template will handle the common requests.
-            <br><br>
-            Each template is built to keep the form components consistent, multilingual, localized, and accessible to
-            provide a uniform user experience across different Services.
-          </p>
-        </div>
-        <div class="col-12 col-md-5 shadow-light-lg bg-white p-md-5 p-5 rounded aos-init aos-animate"
-          data-aos="fade-up">
-          <p class="fs-lg text-primary fw-bold">
-            Service Templates
-          </p>
-          <p class="fs-sm">
-            For the unique service requirements, the Service Template can be extended by GPEI for each service.
-          </p>
-          <div class="d-flex">
-            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-              <i class="fe fe-check" style="margin-top: 1px;"></i>
-            </div>
-            <p class="mb-2"><small>Pay Services with Fixed or Variable Cost</small></p>
-          </div>
-          <div class="d-flex">
-            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-              <i class="fe fe-check" style="margin-top: 1px;"></i>
-            </div>
-            <p class="mb-2"><small>No Pay Services
-              </small></p>
-          </div>
-          <div class="d-flex">
-            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-              <i class="fe fe-check" style="margin-top: 1px;"></i>
-            </div>
-            <p class="mb-2"><small>Web Form
-              </small></p>
-          </div>
-          <div class="d-flex">
-            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-              <i class="fe fe-check" style="margin-top: 1px;"></i>
-            </div>
-            <p class="mb-2"><small>PDF Submission
-              </small></p>
-          </div>
-          <div class="d-flex">
-            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-              <i class="fe fe-check" style="margin-top: 1px;"></i>
-            </div>
-            <p class="mb-2"><small>Walk-in Services
-              </small></p>
-          </div>
-        </div>
-      </div>
+    <section class="py-6 py-md-10 bg-white">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-12 text-center mb-0" data-aos="fade-up">
+            <h2 class="fw-bold cb-title-dark">Our Solution</h2>
 
-      <div class="row align-items-center mb-0 mb-md-8 bg-light p-5 py-md-5">
-        <div class="col-12 col-md-7" data-aos="fade-up">
-          <p class="fs-lg text-primary">
-            Widgets
-          </p>
-          <p>
-            To keep services consistent when collecting or displaying information, our web form solution comes with a
-            set of widgets. Having standard widgets keeps the user experience consistent and makes it easy to update
-            widgets across all services.
-            <br><br>
-            GPEI can easily clone and modified a Widget for edge cases, or built new ones and plug them into our
-            solution.
-          </p>
-        </div>
-        <div class="col-12 col-md-5 shadow-light-lg bg-white p-md-5 p-5 rounded aos-init aos-animate"
-          data-aos="fade-up">
-          <p class="fs-lg text-primary fw-bold">
-            Example of Widgets
-          </p>
-          <p class="fs-sm">
-            We have all the standard form fields, from checkboxes to data pickers and then some.
-          </p>
-          <div class="d-flex">
-            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-              <i class="fe fe-check" style="margin-top: 1px;"></i>
-            </div>
-            <p class="mb-2"><small>Validation and Formatting
-              </small></p>
-          </div>
-          <div class="d-flex">
-            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-              <i class="fe fe-check" style="margin-top: 1px;"></i>
-            </div>
-            <p class="mb-2"><small>Complex Calculations
-              </small></p>
-          </div>
-          <div class="d-flex">
-            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-              <i class="fe fe-check" style="margin-top: 1px;"></i>
-            </div>
-            <p class="mb-2"><small>Standard Address Fields
-              </small></p>
-          </div>
-          <div class="d-flex">
-            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-              <i class="fe fe-check" style="margin-top: 1px;"></i>
-            </div>
-            <p class="mb-2"><small>Web Mapping
-              </small></p>
-          </div>
-          <div class="d-flex">
-            <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-              <i class="fe fe-check" style="margin-top: 1px;"></i>
-            </div>
-            <p class="mb-2"><small>and many more!
-              </small></p>
+            <p>Web forms</p>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
 
-  <section class="py-8 py-md-10">
-    <div class="container">
+        <div class="row align-items-center mb-8 mb-md-8 bg-light p-5 py-md-5">
+          <div class="col-12 col-md-6 order-md-2" data-aos="fade-up">
+            <div class="mb-6 mb-md-0 text-center">
+              <img
+                src="{{webRoot}}/assets/img/extra/eservices-ss.png"
+                class="img-fluid"
+              />
+            </div>
+          </div>
 
-      <div class="row d-flex mb-8 mb-md-10">
-        <div class="col-12 col-md-7" data-aos="fade-up">
-          <h2 class="fw-bold lb-title-dark">
-            Quick Prototypes & Deployments
-          </h2>
-          <p>
-            Using some of the predefined Templates and Widgets, it becomes extremely fast to deploy a service. As more
-            Widgets become available, the quicker it will be for GPEI to build new Services, while ensuring consistency
-            across old and new services.
-            <br><br>
-            To deploy a service that requires payment, GPEI would select a Service Template that requires payment,
-            select a Widget to collect user information, address and payment, assign a business process and with one
-            click, publish the service online.
-          </p>
-        </div>
-        <div class="col-12 col-md-5 bg-primary rounded" data-aos="fade-up">
-          <div class="mt-2 mt-md-6 text-center text-white">
-            <h3 class="display-3 fw-bold">
-              Launch an online service in 10 minutes!
-            </h3>
+          <div class="col-12 col-md-6 order-md-1" data-aos="fade-up">
+            <p class="fs-lg text-primary">A Versatile and Generic Solution</p>
+
             <p>
-              Building a fully functional, mid-size online service with a payment gateway and integration to GPEI’s
-              back-end system takes about 10 minutes.
+              OpenPlus has built a solution that can encompass a variant of
+              online forms. Using our solution, it's extremely easy to create
+              online forms that can be used as standard fillable forms, to
+              multi-step forms, with attachments, payment, workflows,
+              notifications, and so on.
+
+              <br /><br />
+
+              Using our solution, GPEI is now able to build a range of
+              eServices, from simple information requests to complex workflows,
+              with calculations and payment processing with full integration
+              with their current systems.
             </p>
           </div>
         </div>
-      </div>
 
-      <div class="row d-flex">
-        <div class="col-12 col-md-7" data-aos="fade-up">
-          <h2 class="fw-bold lb-title-dark">
-            Integration with 3rd Party Systems
-          </h2>
-          <p>
-            To integrate with an external service or infrastructure, such as GPEI’s Moneris Payment Gateway or Alfresco
-            for Business Process Management (BPM), each eService uses APIs and metadata to pass information to the 3rd
-            party system.
-            <br><br>
-            The API and metadata are open and standardized formats that contains information about the service, so it
-            can be easily ingested and processed by the external services. With our experience, it has been proven that
-            the open and standardized approach gives great flexibility, scalability and interoperability to a platform
-            and prevents vendor lock-in.
-          </p>
+        <div class="row align-items-center mb-8 mb-md-8 bg-light p-5 py-md-5">
+          <div class="col-12 col-md-6 order-2" data-aos="fade-up">
+            <p class="fs-lg text-primary">Service Discovery</p>
+
+            <p>
+              Service Discovery is the main landing page that collects and
+              displays all services, regardless if it’s an online service,
+              offline or that points to an external service.
+
+              <br /><br />
+
+              The benefit of the Service Discovery page is that all services are
+              indexed in one place, which helps the users to find and search all
+              services.
+            </p>
+          </div>
+
+          <div class="col-12 col-md-6 order-1" data-aos="fade-up">
+            <div class="mb-6 mb-md-0 text-center">
+              <img
+                src="{{webRoot}}/assets/img/extra/eservices-discovery.png"
+                class="img-fluid"
+              />
+            </div>
+          </div>
         </div>
-        <div class="col-12 col-md-5 bg-primary rounded" data-aos="fade-up">
-          <div class="mt-2 mt-md-6 text-center">
-            <div class="mt-6 mt-md-10">
-              <img src="{{webRoot}}/assets/img/extra/techlogos.png" class="img-fluid">
+
+        <div class="row align-items-center mb-8 mb-md-8 bg-light p-5 py-md-5">
+          <div class="col-12 col-md-7" data-aos="fade-up">
+            <p class="fs-lg text-primary">
+              Standardization and Service Templates
+            </p>
+
+            <p>
+              We have created Service Templates to standardize the different
+              services into common and generic service. The template contains
+              common settings such as is the payment required, does it require a
+              PDF upload, and based on the service request the template will
+              handle the common requests.
+
+              <br /><br />
+
+              Each template is built to keep the form components consistent,
+              multilingual, localized, and accessible to provide a uniform user
+              experience across different Services.
+            </p>
+          </div>
+
+          <div
+            class="col-12 col-md-5 shadow-light-lg bg-white p-md-5 p-5 rounded aos-init aos-animate"
+            data-aos="fade-up"
+          >
+            <p class="fs-lg text-primary fw-bold">Service Templates</p>
+
+            <p class="fs-sm">
+              For the unique service requirements, the service template can be
+              extended by GPEI for each service.
+            </p>
+
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check" style="margin-top: 1px"></i>
+              </div>
+
+              <p class="mb-2">
+                <small>Pay services with fixed or variable cost</small>
+              </p>
+            </div>
+
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check" style="margin-top: 1px"></i>
+              </div>
+
+              <p class="mb-2"><small>No pay ervices </small></p>
+            </div>
+
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check" style="margin-top: 1px"></i>
+              </div>
+
+              <p class="mb-2"><small>Webform </small></p>
+            </div>
+
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check" style="margin-top: 1px"></i>
+              </div>
+
+              <p class="mb-2"><small>PDF submission </small></p>
+            </div>
+
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check" style="margin-top: 1px"></i>
+              </div>
+
+              <p class="mb-2"><small>Walk-in services </small></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row align-items-center mb-0 mb-md-8 bg-light p-5 py-md-5">
+          <div class="col-12 col-md-7" data-aos="fade-up">
+            <p class="fs-lg text-primary">Widgets</p>
+
+            <p>
+              To keep services consistent when collecting or displaying
+              information, our web form solution comes with a set of widgets.
+              Having standard widgets keeps the user experience consistent and
+              makes it easy to update widgets across all services.
+
+              <br /><br />
+
+              GPEI can easily clone and modify a widget for edge cases, or built
+              new ones and plug them into our solution.
+            </p>
+          </div>
+
+          <div
+            class="col-12 col-md-5 shadow-light-lg bg-white p-md-5 p-5 rounded aos-init aos-animate"
+            data-aos="fade-up"
+          >
+            <p class="fs-lg text-primary fw-bold">Example of Widgets</p>
+
+            <p class="fs-sm">
+              We have all the standard form fields, from checkboxes to data
+              pickers and then some.
+            </p>
+
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check" style="margin-top: 1px"></i>
+              </div>
+
+              <p class="mb-2"><small>Validation and Formatting </small></p>
+            </div>
+
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check" style="margin-top: 1px"></i>
+              </div>
+
+              <p class="mb-2"><small>Complex Calculations </small></p>
+            </div>
+
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check" style="margin-top: 1px"></i>
+              </div>
+
+              <p class="mb-2"><small>Standard Address Fields </small></p>
+            </div>
+
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check" style="margin-top: 1px"></i>
+              </div>
+
+              <p class="mb-2"><small>Web Mapping </small></p>
+            </div>
+
+            <div class="d-flex">
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check" style="margin-top: 1px"></i>
+              </div>
+
+              <p class="mb-2"><small>and many more! </small></p>
             </div>
           </div>
         </div>
       </div>
+    </section>
 
-    </div>
-  </section>
+    <section class="py-8 py-md-10">
+      <div class="container">
+        <div class="row d-flex mb-8 mb-md-10">
+          <div class="col-12 col-md-7" data-aos="fade-up">
+            <h2 class="fw-bold lb-title-dark">
+              Quick Prototypes & Deployments
+            </h2>
 
+            <p>
+              Using some of the pre-defined Templates and Widgets, it becomes
+              extremely fast to deploy a service. As more Widgets become
+              available, the quicker it will be for GPEI to build new Services,
+              while ensuring consistency across old and new services.
 
-  <section class="py-8 pt-md-10 pb-md-8 bg-primary">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-10 col-lg-8 text-center">
-          <h2 class="display-4 fw-bold text-white cb-title-light">
-            Technologies &amp; Accessibility
-          </h2>
+              <br /><br />
+
+              To deploy a service that requires payment, GPEI would select a
+              Service Template that requires payment, select a Widget to collect
+              user information, address and payment, assign a business process
+              and with one click, publish the service online.
+            </p>
+          </div>
+
+          <div class="col-12 col-md-5 bg-primary rounded" data-aos="fade-up">
+            <div class="mt-2 mt-md-6 text-center text-white">
+              <h3 class="display-3 fw-bold">
+                Launch an online service in 10 minutes!
+              </h3>
+
+              <p>
+                Building a fully functional, mid-size online service with a
+                payment gateway and integration to GPEI’s back-end system takes
+                about 10 minutes.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row d-flex">
+          <div class="col-12 col-md-7" data-aos="fade-up">
+            <h2 class="fw-bold lb-title-dark">
+              Integration with 3rd Party Systems
+            </h2>
+
+            <p>
+              To integrate with an external service or infrastructure, such as
+              GPEI’s Moneris Payment Gateway or Alfresco for Business Process
+              Management (BPM), each eService uses APIs and metadata to pass
+              information to the 3rd party system.
+
+              <br /><br />
+
+              The API and metadata are open and standardized formats that
+              contains information about the service, so it can be easily
+              ingested and processed by the external services. With our
+              experience, it has been proven that the open and standardized
+              approach gives great flexibility, scalability and interoperability
+              to a platform and prevents vendor lock-in.
+            </p>
+          </div>
+
+          <div class="col-12 col-md-5 bg-primary rounded" data-aos="fade-up">
+            <div class="mt-2 mt-md-6 text-center">
+              <div class="mt-6 mt-md-10">
+                <img
+                  src="{{webRoot}}/assets/img/extra/techlogos.png"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-8 pt-md-10 pb-md-8 bg-primary">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+            <h2 class="display-4 fw-bold text-white cb-title-light">
+              Technologies &amp; Accessibility
+            </h2>
+
+            <p class="fs-lg text-white mb-6 mb-md-8">
+              Under the hood powered by OpenSource
+            </p>
+          </div>
+        </div>
+
+        <div class="row mt-n7">
+          <div class="col-6 col-sm-6 col-lg-3 col-md-3 mt-7">
+            <a
+              class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center"
+              href="https://drupalwxt.org"
+              target="_blank"
+            >
+              <div class="card-body p-5 my-auto">
+                <img
+                  src="{{webRoot}}/assets/img/extra/drupalwxt.png"
+                  class="img-fluid"
+                />
+              </div>
+            </a>
+          </div>
+
+          <div class="col-6 col-sm-6 col-lg-3 col-md-3 mt-7">
+            <div
+              class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center"
+            >
+              <div class="card-body p-5 my-auto">
+                <img
+                  src="{{webRoot}}/assets/img/extra/wcag.png"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4 col-sm-4 col-lg-2 col-md-2 mt-7">
+            <div
+              class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center"
+            >
+              <div class="card-body p-5 my-auto">
+                <img
+                  src="{{webRoot}}/assets/img/extra/html5.png"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4 col-sm-4 col-lg-2 col-md-2 mt-7">
+            <div
+              class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center"
+            >
+              <div class="card-body p-5 my-auto">
+                <img
+                  src="{{webRoot}}/assets/img/extra/css3.png"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4 col-sm-4 col-lg-2 col-md-2 mt-7">
+            <div
+              class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center"
+            >
+              <div class="card-body p-5 my-auto">
+                <img
+                  src="{{webRoot}}/assets/img/extra/js5.png"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center text-center mt-8">
           <p class="fs-lg text-white mb-6 mb-md-8">
-            Under the hood powered by OpenSource
+            For a full case study on this project<br /><br />
+
+            <a href="{{webRoot}}/contact/" class="btn btn-white lift"
+              >Contact us
+            </a>
           </p>
         </div>
       </div>
-      <div class="row mt-n7">
-        <div class="col-6 col-sm-6 col-lg-3 col-md-3 mt-7">
-          <a class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center"
-            href="https://drupalwxt.org" target="_blank">
-            <div class="card-body p-5 my-auto">
-              <img src="{{webRoot}}/assets/img/extra/drupalwxt.png" class="img-fluid">
-            </div>
-          </a>
-        </div>
-        <div class="col-6 col-sm-6 col-lg-3 col-md-3 mt-7">
-          <div class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center">
-            <div class="card-body p-5 my-auto">
-              <img src="{{webRoot}}/assets/img/extra/wcag.png" class="img-fluid">
-            </div>
-          </div>
-        </div>
-        <div class="col-4 col-sm-4 col-lg-2 col-md-2 mt-7">
-          <div class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center">
-            <div class="card-body p-5 my-auto">
-              <img src="{{webRoot}}/assets/img/extra/html5.png" class="img-fluid">
-            </div>
-          </div>
-        </div>
-        <div class="col-4 col-sm-4 col-lg-2 col-md-2 mt-7">
-          <div class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center">
-            <div class="card-body p-5 my-auto">
-              <img src="{{webRoot}}/assets/img/extra/css3.png" class="img-fluid">
-            </div>
-          </div>
-        </div>
-        <div class="col-4 col-sm-4 col-lg-2 col-md-2 mt-7">
-          <div class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center">
-            <div class="card-body p-5 my-auto">
-              <img src="{{webRoot}}/assets/img/extra/js5.png" class="img-fluid">
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row justify-content-center text-center mt-8">
-        <p class="fs-lg text-white mb-6 mb-md-8">For a full case study on this project<br><br>
-          <a href="{{webRoot}}/contact/" class="btn btn-white lift">Contact Us </a>
-        </p>
+    </section>
+
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x text-gray-200">
+        {{> curves/curve-1}}
       </div>
     </div>
-  </section>
 
+    <!-- FOOTER -->
 
-  <div class="position-relative">
-    <div class="shape shape-bottom shape-fluid-x text-gray-200">
-      {{> curves/curve-1}}
-    </div>
-  </div>
+    {{> partials/footer classList="bg-gray-200"}}
 
-  <!-- FOOTER -->
-  {{> partials/footer classList="bg-gray-200"}}
+    <!-- JAVASCRIPT -->
 
-  <!-- JAVASCRIPT -->
-  {{> partials/scripts}}
-
-</body>
-
+    {{> partials/scripts}}
+  </body>
 </html>
