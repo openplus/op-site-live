@@ -1,63 +1,135 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    {{> partials/head
-      title="PIPSC ServicePlus - OpenPlus"
-      description=""
-      keywords=""
-    }}
+    {{> partials/head title="PIPSC ServicePlus - OpenPlus" description=""
+    keywords="" }}
   </head>
   <body class="bg-light">
+    <!-- NAVBAR -->
+    {{> partials/navbar classList="navbar-light bg-white" container="container"
+    button="primary"}}
 
-  <!-- NAVBAR -->
-    {{> partials/navbar classList="navbar-light bg-white" container="container" button="primary"}}
-
-    <section class="py-8 py-md-11 bg-cover" id="welcome" style="background-image: url({{webRoot}}/assets/img/extra/PIPSC-serviceplus-main-cover.jpg);">
+    <section
+      class="py-8 py-md-11 bg-cover"
+      id="welcome"
+      style="background-image: url({{webRoot}}/assets/img/extra/PIPSC-serviceplus-main-cover.jpg);"
+    >
       <div class="shape shape-blur-3 text-white">
-        <svg viewBox="0 0 1738 487" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h1420.92s713.43 457.505 0 485.868C707.502 514.231 0 0 0 0z" fill="url(#paint0_linear)"></path><defs><linearGradient id="paint0_linear" x1="0" y1="0" x2="1049.98" y2="912.68" gradientUnits="userSpaceOnUse"><stop stop-color="currentColor" stop-opacity=".075"></stop><stop offset="1" stop-color="currentColor" stop-opacity="0"></stop></linearGradient></defs></svg>
+        <svg
+          viewBox="0 0 1738 487"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h1420.92s713.43 457.505 0 485.868C707.502 514.231 0 0 0 0z"
+            fill="url(#paint0_linear)"
+          ></path>
+          <defs>
+            <linearGradient
+              id="paint0_linear"
+              x1="0"
+              y1="0"
+              x2="1049.98"
+              y2="912.68"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="currentColor" stop-opacity=".075"></stop>
+              <stop
+                offset="1"
+                stop-color="currentColor"
+                stop-opacity="0"
+              ></stop>
+            </linearGradient>
+          </defs>
+        </svg>
       </div>
       <div class="container">
         <div class="row justify-content-center align-items-center">
-          <div class="col-12 col-md-7 col-lg-7 mb-5 aos-init aos-animate" data-aos="fade-up">
+          <div
+            class="col-12 col-md-7 col-lg-7 mb-5 aos-init aos-animate"
+            data-aos="fade-up"
+          >
             <h1 class="text-center text-md-start text-white fw-bold">
               PIPSC ServicePlus
             </h1>
-            <p class="text-md-start text-white mb-6 mb-lg-6">
-              The Professional Institute of the Public Service of Canada (PIPSC) was founded in 1920. With over 57,000 members, the Institute is the largest union in Canada representing scientists and professionals employed at the federal and some provincial and territorial levels of government.
-              <br><br>
-              The ServicePlus is a member benefit program that represents some 80,000 federal, provincial and private sector professionals within Canada.
-              <br><br>
-              ServicePlus memebers can take advantage of preferential rates and savings on a variety of products and services available exclusively to members.
-             </p>            
-            <div class="text-center text-md-start" style="display:none;">
-              <a href="{{webRoot}}" class="btn btn-white shadow lift me-1" target="_blank">Visit Website</a>
+            <div class="text-md-start text-white mb-6 mb-lg-6">
+              <p>
+                The Professional Institute of the Public Service of Canada
+                (PIPSC) was founded in 1920. With over 57,000 members, the
+                Institute is the largest union in Canada representing scientists
+                and professionals employed at the federal and some provincial
+                and territorial levels of government.
+              </p>
+
+              <p>
+                The ServicePlus is a member benefit program that represents some
+                80,000 federal, provincial and private sector professionals
+                within Canada
+              </p>
+              .
+
+              <p>
+                ServicePlus memebers can take advantage of preferential rates
+                and savings on a variety of products and services available
+                exclusively to members.
+              </p>
+            </div>
+            <div class="text-center text-md-start" style="display: none">
+              <a
+                href="{{webRoot}}"
+                class="btn btn-white shadow lift me-1"
+                target="_blank"
+                >Visit Website</a
+              >
             </div>
           </div>
-          <div class="col-12 col-md-5 col-lg-5 aos-init aos-animate" data-aos="fade-up">
-            <div class="accordion shadow-light-lg mb-md-6" id="helpAccordionOne">
+          <div
+            class="col-12 col-md-5 col-lg-5 aos-init aos-animate"
+            data-aos="fade-up"
+          >
+            <div
+              class="accordion shadow-light-lg mb-md-6"
+              id="helpAccordionOne"
+            >
               <div class="accordion-item">
                 <div class="accordion-button" role="button">
                   <div class="mx-auto">
                     <h4 class="fw-bold mb-0">
-                        <img class="figure-img img-fluid rounded mb-0" src="{{webRoot}}/assets/img/extra/PIPSC-serviceplus-logo-dark.png">
+                      <img
+                        class="figure-img img-fluid rounded mb-0"
+                        src="{{webRoot}}/assets/img/extra/PIPSC-serviceplus-logo-dark.png"
+                      />
                     </h4>
                   </div>
                 </div>
               </div>
               <div class="accordion-item">
-                <div class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#helpOne" aria-expanded="true" aria-controls="helpOne">
+                <div
+                  class="accordion-button collapsed"
+                  role="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#helpOne"
+                  aria-expanded="true"
+                  aria-controls="helpOne"
+                >
                   <span class="me-4 fw-bold h4" id="helpOneHeading">
                     Industry
                   </span>
                   <div class="text-muted ms-auto">
-                    <span class="fs-sm me-4 d-none d-md-inline">
-                    </span>
+                    <span class="fs-sm me-4 d-none d-md-inline"> </span>
                   </div>
                 </div>
-                <div class="accordion-collapse collapse" id="helpOne" aria-labelledby="helpOneHeading" data-bs-parent="#helpAccordionOne">
+                <div
+                  class="accordion-collapse collapse"
+                  id="helpOne"
+                  aria-labelledby="helpOneHeading"
+                  data-bs-parent="#helpAccordionOne"
+                >
                   <div class="accordion-body">
                     <div class="d-flex">
-                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
                         <i class="fe fe-check"></i>
                       </div>
                       <p class="mb-2"><small>Union</small></p>
@@ -66,190 +138,293 @@
                 </div>
               </div>
               <div class="accordion-item">
-                <div class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#helpTwo" aria-expanded="false" aria-controls="helpTwo">
+                <div
+                  class="accordion-button collapsed"
+                  role="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#helpTwo"
+                  aria-expanded="false"
+                  aria-controls="helpTwo"
+                >
                   <span class="me-4 fw-bold h4" id="helpTwoHeading">
                     Type
                   </span>
                   <div class="text-muted ms-auto">
-                    <span class="fs-sm me-4 d-none d-md-inline">
-                    </span>
+                    <span class="fs-sm me-4 d-none d-md-inline"> </span>
                   </div>
                 </div>
-                <div class="accordion-collapse collapse" id="helpTwo" aria-labelledby="helpTwoHeading" data-bs-parent="#helpAccordionOne">
+                <div
+                  class="accordion-collapse collapse"
+                  id="helpTwo"
+                  aria-labelledby="helpTwoHeading"
+                  data-bs-parent="#helpAccordionOne"
+                >
                   <div class="accordion-body">
                     <div class="d-flex">
-                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
                         <i class="fe fe-check"></i>
                       </div>
-                      <p class="mb-2"><small>Union Members, Benefit Program</small></p>
+                      <p class="mb-2">
+                        <small>Union Members, Benefit Program</small>
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="accordion-item">
-                <div class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#helpThree" aria-expanded="false" aria-controls="helpThree">
+                <div
+                  class="accordion-button collapsed"
+                  role="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#helpThree"
+                  aria-expanded="false"
+                  aria-controls="helpThree"
+                >
                   <span class="me-4 fw-bold h4" id="helpThreeHeading">
                     Services
                   </span>
                   <div class="text-muted ms-auto">
-                    <span class="fs-sm me-4 d-none d-md-inline">
-                    </span>
+                    <span class="fs-sm me-4 d-none d-md-inline"> </span>
                   </div>
                 </div>
-                <div class="accordion-collapse collapse" id="helpThree" aria-labelledby="helpThreeHeading" data-bs-parent="#helpAccordionOne">
+                <div
+                  class="accordion-collapse collapse"
+                  id="helpThree"
+                  aria-labelledby="helpThreeHeading"
+                  data-bs-parent="#helpAccordionOne"
+                >
                   <div class="accordion-body">
                     <div class="d-flex">
-                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
                         <i class="fe fe-check"></i>
                       </div>
                       <p class="mb-2"><small>Drupal Development</small></p>
                     </div>
                     <div class="d-flex">
-                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
                         <i class="fe fe-check"></i>
                       </div>
                       <p class="mb-2"><small>Drupal Consulting</small></p>
-                    </div> 
+                    </div>
                     <div class="d-flex">
-                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
                         <i class="fe fe-check"></i>
                       </div>
                       <p class="mb-2"><small>Drupal Theming</small></p>
-                    </div> 
+                    </div>
                     <div class="d-flex">
-                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
                         <i class="fe fe-check"></i>
                       </div>
                       <p class="mb-2"><small>Web Design</small></p>
-                    </div>  
+                    </div>
                     <div class="d-flex">
-                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
                         <i class="fe fe-check"></i>
                       </div>
                       <p class="mb-2"><small>Mobile Design</small></p>
-                    </div> 
+                    </div>
                     <div class="d-flex">
-                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
                         <i class="fe fe-check"></i>
                       </div>
                       <p class="mb-2"><small>Wireframes</small></p>
                     </div>
                     <div class="d-flex">
-                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
                         <i class="fe fe-check"></i>
                       </div>
                       <p class="mb-2"><small>Prototypes</small></p>
-                    </div> 
-                    <div class="d-flex">
-                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-                        <i class="fe fe-check"></i>
-                      </div>
-                      <p class="mb-2"><small>Information Architecture</small></p>
                     </div>
                     <div class="d-flex">
-                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
+                        <i class="fe fe-check"></i>
+                      </div>
+                      <p class="mb-2">
+                        <small>Information Architecture</small>
+                      </p>
+                    </div>
+                    <div class="d-flex">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
                         <i class="fe fe-check"></i>
                       </div>
                       <p class="mb-2"><small>Drupal Training</small></p>
-                    </div>                                                      
+                    </div>
                     <div class="d-flex">
-                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
                         <i class="fe fe-check"></i>
                       </div>
                       <p class="mb-2"><small>Project Management</small></p>
-                    </div> 
+                    </div>
                     <div class="d-flex">
-                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
                         <i class="fe fe-check"></i>
                       </div>
                       <p class="mb-2"><small>Testing</small></p>
-                    </div>  
+                    </div>
                     <div class="d-flex">
-                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
                         <i class="fe fe-check"></i>
                       </div>
                       <p class="mb-2"><small>WCAG Accessibility</small></p>
-                    </div> 
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="accordion-item">
-                <div class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#helpFour" aria-expanded="false" aria-controls="helpFour">
+                <div
+                  class="accordion-button collapsed"
+                  role="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#helpFour"
+                  aria-expanded="false"
+                  aria-controls="helpFour"
+                >
                   <span class="me-4 fw-bold h4" id="helpFourHeading">
                     Technology
                   </span>
                   <div class="text-muted ms-auto">
-                    <span class="fs-sm me-4 d-none d-md-inline">
-                    </span>
+                    <span class="fs-sm me-4 d-none d-md-inline"> </span>
                   </div>
                 </div>
-                <div class="accordion-collapse collapse" id="helpFour" aria-labelledby="helpFourHeading" data-bs-parent="#helpAccordionOne">
+                <div
+                  class="accordion-collapse collapse"
+                  id="helpFour"
+                  aria-labelledby="helpFourHeading"
+                  data-bs-parent="#helpAccordionOne"
+                >
                   <div class="accordion-body">
                     <div class="d-flex">
-                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
                         <i class="fe fe-check"></i>
                       </div>
-                      <p class="mb-2"><small><a href="{{webRoot}}/services/technology.html" class="text-primary">Drupal</a></small></p>
+                      <p class="mb-2">
+                        <small
+                          ><a
+                            href="{{webRoot}}/services/technology.html"
+                            class="text-primary"
+                            >Drupal</a
+                          ></small
+                        >
+                      </p>
                     </div>
                     <div class="d-flex">
-                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
                         <i class="fe fe-check"></i>
                       </div>
-                      <p class="mb-2"><small><a href="{{webRoot}}/services/technology.html" class="text-primary">Web Experience Toolkit (WxT)</a></small></p>
+                      <p class="mb-2">
+                        <small
+                          ><a
+                            href="{{webRoot}}/services/technology.html"
+                            class="text-primary"
+                            >Web Experience Toolkit (WxT)</a
+                          ></small
+                        >
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
               <div class="accordion-item">
-                <div class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#helpFive" aria-expanded="false" aria-controls="helpFive">
+                <div
+                  class="accordion-button collapsed"
+                  role="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#helpFive"
+                  aria-expanded="false"
+                  aria-controls="helpFive"
+                >
                   <span class="me-4 h4 fw-bold" id="helpFiveHeading">
                     Website
                   </span>
                   <div class="text-muted ms-auto">
-                    <span class="fs-sm me-4 d-none d-md-inline">
-                    </span>
+                    <span class="fs-sm me-4 d-none d-md-inline"> </span>
                   </div>
                 </div>
-                <div class="accordion-collapse collapse" id="helpFive" aria-labelledby="helpFiveHeading" data-bs-parent="#helpAccordionOne">
+                <div
+                  class="accordion-collapse collapse"
+                  id="helpFive"
+                  aria-labelledby="helpFiveHeading"
+                  data-bs-parent="#helpAccordionOne"
+                >
                   <div class="accordion-body">
                     <div class="d-flex">
-                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                      <div
+                        class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                      >
                         <i class="fe fe-check"></i>
                       </div>
-                      <p class="mb-2"><small><a href="{{webRoot}}" target="_blank" class="text-primary">Work in progress...</a></small></p>
+                      <p class="mb-2">
+                        <small
+                          ><a
+                            href="{{webRoot}}"
+                            target="_blank"
+                            class="text-primary"
+                            >Work in progress...</a
+                          ></small
+                        >
+                      </p>
                     </div>
                   </div>
                 </div>
-              </div>              
+              </div>
             </div>
           </div>
-        </div> 
-      </div> 
+        </div>
+      </div>
     </section>
-
 
     <div class="position-relative">
       <div class="shape shape-bottom shape-fluid-x text-light">
         {{> curves/curve-1}}
       </div>
-    </div>    
-
+    </div>
 
     <section class="py-8 py-md-11 bg-white">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 text-center">
-            <h2 class="fw-bold cb-title-dark">
-              Work in progress
-            </h2>
+            <h2 class="fw-bold cb-title-dark">Work in progress</h2>
             <p class="text-primary mb-7 mb-md-7">
               page is under construction...
             </p>
-          </div>        
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
-    </section>   
-    
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </section>
+
     <div class="position-relative">
       <div class="shape shape-bottom shape-fluid-x text-gray-200">
         {{> curves/curve-1}}
@@ -261,6 +436,5 @@
 
     <!-- JAVASCRIPT -->
     {{> partials/scripts}}
-    
   </body>
 </html>
