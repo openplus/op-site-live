@@ -29,4 +29,5 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build
-    - run: git subtree add --prefix dist origin gh-pages
+    #- run: git subtree push --prefix dist origin gh-pages
+    - run: git subtree split --prefix dist -b gh-pages-local && git push -f origin gh-pages-local:gh-pages
