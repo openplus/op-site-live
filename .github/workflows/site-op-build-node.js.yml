@@ -4,6 +4,7 @@
 name: OP-Site-Build-Node.js CI
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "main" ]
   pull_request:
