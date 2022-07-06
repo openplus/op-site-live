@@ -1,35 +1,40 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
   <head>
-    {{> partials/head
-      title="Government - OpenPlus"
-      description=""
-      keywords=""
+    {{> partials/head title="Government - OpenPlus" description="" keywords=""
     }}
   </head>
-  <body class="bg-light">
 
+  <body class="bg-light">
     <!-- NAVBAR -->
-    {{> partials/navbar classList="navbar-light bg-white" container="container" button="primary"}}
+
+    {{> partials/navbar classList="navbar-light bg-white" container="container"
+    button="primary"}}
 
     <!-- WELCOME -->
-    <section data-jarallax data-speed=".8" class="pt-10 pb-11 py-md-14 overlay overlay-black overlay-60 jarallax" style="background-image: url({{webRoot}}/assets/img/extra/drupalwxt-page-cover-min.jpg);">
+
+    <section
+      data-jarallax
+      data-speed=".8"
+      class="pt-10 pb-11 py-md-14 overlay overlay-black overlay-60 jarallax"
+      style="background-image: url({{webRoot}}/assets/img/extra/drupalwxt-page-cover-min.jpg);"
+    >
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-md-10 col-lg-8 text-center">
-
             <!-- Heading -->
-            <h1 class="display-2 fw-bold text-white">
-              Government +
-            </h1>
 
+            <h1 class="display-2 fw-bold text-white">Government +</h1>
           </div>
-        </div> <!-- / .row -->
-
-      </div> <!-- / .container -->
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
     </section>
 
     <!-- SHAPE -->
+
     <div class="position-relative">
       <div class="shape shape-bottom shape-fluid-x text-light">
         {{> curves/curve-1}}
@@ -40,34 +45,60 @@
       <div class="container">
         <div class="row mb-3 mb-md-6">
           <div class="col-12 col-md-12 col-lg-12 text-center">
-            <h2 class="fw-bold cb-title-dark">
-              What is DrupalWxT?
-            </h2>
+            <h2 class="fw-bold cb-title-dark">What is DrupalWxT?</h2>
+
             <p class="fs-lg text-muted mb-5 mb-md-7">
               A little information about DrupalWxT to get you started.
             </p>
-          </div>         
+          </div>
         </div>
+
         <div class="row align-items-center justify-content-between">
-          <div class="col-12 col-md-6 col-lg-6 order-2 order-md-0 order-lg-0 order-xl-0">
-            <h3 class="fw-bold">
-              DrupalWxT
-            </h3>
+          <div
+            class="col-12 col-md-6 col-lg-6 order-2 order-md-0 order-lg-0 order-xl-0"
+          >
+            <h3 class="fw-bold">DrupalWxT</h3>
+
             <p class="fs-lg text-primary">
               The Drupal Web Experience Toolkit Distribution
             </p>
+
             <p>
-              DrupalWxT, is designed and built by the Drupal community in collaboration with the Government of Canada in order to meet government-grade web property requirements. The distribution is production proven that includes re-usable tools and components for building and maintaining innovative enterprise websites that are multilingual, accessible, and interoperable while providing a fully responsive interface that tailors for any device from your desktop, to your tablet, to your smartphone.
-              <br><br>
-              DrupalWxT brings together best practice methodology paired with leading modules in one ready to deploy solution. It uses components that help with cross-browser compatibility and provides responsive and interchangeable regions within your layout ensuring developers and designs have the freedom needed to deliver amazing experiences.
-             </p>
-            <a href="https://drupalwxt.org/" target="_blank" class="btn btn-primary btn-sm lift mt-5">See DrupalWxT.org</a>
+              The Drupal community designed and built DrupalWxT in collaboration
+              with the Government of Canada in order to meet government-grade
+              web property requirements. The distribution is production proven
+              that includes re-usable tools and components for building and
+              maintaining innovative enterprise websites that are multilingual,
+              accessible, and interoperable while providing a fully responsive
+              interface that tailors for any device from your desktop, to your
+              tablet, to your smartphone.
+
+              <br /><br />
+
+              DrupalWxT brings together best practice methodology paired with
+              leading modules in one ready to deploy solution. It uses
+              components that help with cross-browser compatibility and provides
+              responsive and interchangeable regions within your layout ensuring
+              developers and designs have the freedom needed to deliver amazing
+              experiences.
+            </p>
+
+            <a
+              href="https://drupalwxt.org/"
+              target="_blank"
+              class="btn btn-primary btn-sm lift mt-5"
+              >See DrupalWxT.org</a
+            >
           </div>
+
           <div class="col-12 col-md-6 order-1 order-md-0 order-lg-0 order-xl-0">
             <div class="shadow-light-lg mb-4 mb-md-0 bg-white">
-              <img src="{{webRoot}}/assets/img/extra/drupalwxt-logo.png" class="img-fluid">
+              <img
+                src="{{webRoot}}/assets/img/extra/drupalwxt-logo.png"
+                class="img-fluid"
+              />
             </div>
-          </div>         
+          </div>
         </div>
       </div>
     </section>
@@ -76,152 +107,193 @@
       <div class="container">
         <div class="row mb-3 mb-md-6">
           <div class="col-12 col-md-12 col-lg-12 text-center">
-            <h2 class="fw-bold cb-title-dark">
-              Well Hello DrupalWxT!
-            </h2>
+            <h2 class="fw-bold cb-title-dark">Well Hello DrupalWxT!</h2>
+
             <p class="fs-lg text-muted mb-5 mb-md-7">
               A Government of Canada Open Source Community project
             </p>
-          </div>         
+          </div>
         </div>
+
         <div class="row align-items-center justify-content-between">
-          <div class="col-12  col-md-8 col-lg-8 order-1 order-md-0 order-lg-0 order-xl-0">
+          <div
+            class="col-12 col-md-8 col-lg-8 order-1 order-md-0 order-lg-0 order-xl-0"
+          >
             <div class="mb-4 mb-md-0 bg-white ctm-video-container">
-              <iframe src="https://www.youtube.com/embed/J1uQzwvA0mI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe
+                src="https://www.youtube.com/embed/J1uQzwvA0mI"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
             </div>
-          </div>           
-          <div class="col-12 col-md-4 col-lg-4 order-2 order-md-0 order-lg-0 order-xl-0">
-            <h3 class="fw-bold">
-              2 minutes demo
-            </h3>
+          </div>
+
+          <div
+            class="col-12 col-md-4 col-lg-4 order-2 order-md-0 order-lg-0 order-xl-0"
+          >
+            <h3 class="fw-bold">2 minutes demo</h3>
+
             <p>
-              This video is a brief introduction to DrupalWxT. In about 2 minutes, you're creating Government of Canada compliant content... for sites, intranets and custom applications with API integrations.
-             </p>
-            <a href="https://www.drupal.org/project/wxt" target="_blank" class="btn btn-outline-primary btn-sm lift mt-5">Official Project on Drupal.org</a>
-          </div>      
+              This video is a brief introduction to DrupalWxT. In about 2
+              minutes, you're creating Government of Canada compliant content...
+              for sites, intranets and custom applications with API
+              integrations.
+            </p>
+
+            <a
+              href="https://www.drupal.org/project/wxt"
+              target="_blank"
+              class="btn btn-outline-primary btn-sm lift mt-5"
+              >Official Project on Drupal.org</a
+            >
+          </div>
         </div>
       </div>
-    </section> 
+    </section>
 
     <section class="bg-light py-8 py-md-11">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-lg-7 text-center">
-
             <!-- Heading -->
-            <h2 class="fw-bold cb-title-dark">
-              Lets get started
-            </h2>
+
+            <h2 class="fw-bold cb-title-dark">Lets get started</h2>
 
             <!-- Text -->
+
             <p class="lead text-muted mb-5">
               Features to get you started with DrupalWxT
             </p>
-
           </div>
-        </div> <!-- / .row -->
-        <div class="row mt-n7">
+        </div>
+        <!-- / .row -->
 
+        <div class="row mt-n7">
           <div class="col-6 col-sm-6 col-lg-3 col-md-3 mt-7">
-            <a class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center" href="https://drupalwxt.org/features.html#accessable" target="_blank">
+            <a
+              class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center"
+              href="https://drupalwxt.org/features.html#accessable"
+              target="_blank"
+            >
               <div class="card-body p-5 my-auto">
                 <div class="icon-circle bg-primary text-white mb-5">
                   <i class="fe fe-zap"></i>
                 </div>
-                <h4 class="fw-bold mb-0">
-                  Accessible
-                </h4>
+
+                <h4 class="fw-bold mb-0">Accessible</h4>
               </div>
             </a>
           </div>
 
           <div class="col-6 col-sm-6 col-lg-3 col-md-3 mt-7">
-            <a class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center" href="https://drupalwxt.org/features.html#themes" target="_blank">
+            <a
+              class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center"
+              href="https://drupalwxt.org/features.html#themes"
+              target="_blank"
+            >
               <div class="card-body p-5 my-auto">
                 <div class="icon-circle bg-primary text-white mb-5">
                   <i class="fe fe-copy"></i>
                 </div>
-                <h4 class="fw-bold mb-0">
-                  WxT Themes
-                </h4>
+
+                <h4 class="fw-bold mb-0">WxT Themes</h4>
               </div>
             </a>
           </div>
 
           <div class="col-6 col-sm-6 col-lg-3 col-md-3 mt-7">
-            <a class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center" href="https://drupalwxt.org/features.html#multlingual" target="_blank">
+            <a
+              class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center"
+              href="https://drupalwxt.org/features.html#multlingual"
+              target="_blank"
+            >
               <div class="card-body p-5 my-auto">
                 <div class="icon-circle bg-primary text-white mb-5">
                   <i class="fe fe-message-circle"></i>
                 </div>
-                <h4 class="fw-bold mb-0">
-                  Multilingual
-                </h4>
+
+                <h4 class="fw-bold mb-0">Multilingual</h4>
               </div>
             </a>
           </div>
-          
+
           <div class="col-6 col-sm-6 col-lg-3 col-md-3 mt-7">
-            <a class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center" href="https://drupalwxt.org/features.html#migration" target="_blank">
+            <a
+              class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center"
+              href="https://drupalwxt.org/features.html#migration"
+              target="_blank"
+            >
               <div class="card-body p-5 my-auto">
                 <div class="icon-circle bg-primary text-white mb-5">
                   <i class="fe fe-maximize-2"></i>
                 </div>
-                <h4 class="fw-bold mb-0">
-                  Migration
-                </h4>
+
+                <h4 class="fw-bold mb-0">Migration</h4>
               </div>
             </a>
           </div>
 
           <div class="col-6 col-sm-6 col-lg-3 col-md-3 mt-7">
-            <a class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center" href="https://drupalwxt.org/features.html#content" target="_blank">
+            <a
+              class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center"
+              href="https://drupalwxt.org/features.html#content"
+              target="_blank"
+            >
               <div class="card-body p-5 my-auto">
                 <div class="icon-circle bg-primary text-white mb-5">
                   <i class="fe fe-file-text"></i>
                 </div>
-                <h4 class="fw-bold mb-0">
-                  Content Staging
-                </h4>
+
+                <h4 class="fw-bold mb-0">Content Staging</h4>
               </div>
             </a>
           </div>
 
           <div class="col-6 col-sm-6 col-lg-3 col-md-3 mt-7">
-            <a class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center" href="https://drupalwxt.org/features.html#workflow" target="_blank">
+            <a
+              class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center"
+              href="https://drupalwxt.org/features.html#workflow"
+              target="_blank"
+            >
               <div class="card-body p-5 my-auto">
                 <div class="icon-circle bg-primary text-white mb-5">
                   <i class="fe fe-refresh-cw"></i>
                 </div>
-                <h4 class="fw-bold mb-0">
-                  Workflow & Moderation
-                </h4>
+
+                <h4 class="fw-bold mb-0">Workflow & Moderation</h4>
               </div>
             </a>
           </div>
 
           <div class="col-6 col-sm-6 col-lg-3 col-md-3 mt-7">
-            <a class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center" href="https://drupalwxt.org/features.html#forms" target="_blank">
+            <a
+              class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center"
+              href="https://drupalwxt.org/features.html#forms"
+              target="_blank"
+            >
               <div class="card-body p-5 my-auto">
                 <div class="icon-circle bg-primary text-white mb-5">
                   <i class="fe fe-edit-3"></i>
                 </div>
-                <h4 class="fw-bold mb-0">
-                  Forms
-                </h4>
+
+                <h4 class="fw-bold mb-0">Forms</h4>
               </div>
             </a>
           </div>
-          
+
           <div class="col-6 col-sm-6 col-lg-3 col-md-3 mt-7">
-            <a class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center" href="https://drupalwxt.org/features.html#layouts" target="_blank">
+            <a
+              class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center"
+              href="https://drupalwxt.org/features.html#layouts"
+              target="_blank"
+            >
               <div class="card-body p-5 my-auto">
                 <div class="icon-circle bg-primary text-white mb-5">
                   <i class="fe fe-layout"></i>
                 </div>
-                <h4 class="fw-bold mb-0">
-                  Layouts & Editors
-                </h4>
+
+                <h4 class="fw-bold mb-0">Layouts & Editors</h4>
               </div>
             </a>
           </div>
@@ -229,116 +301,158 @@
           <div class="col-0 col-sm-6 col-lg-3 col-md-3"></div>
 
           <div class="col-6 col-sm-6 col-lg-3 col-md-3 mt-7">
-            <a class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center" href="https://drupalwxt.org/features.html#search" target="_blank">
+            <a
+              class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center"
+              href="https://drupalwxt.org/features.html#search"
+              target="_blank"
+            >
               <div class="card-body p-5 my-auto">
                 <div class="icon-circle bg-primary text-white mb-5">
                   <i class="fe fe-search"></i>
                 </div>
-                <h4 class="fw-bold mb-0">
-                  Layouts & Editors
-                </h4>
+
+                <h4 class="fw-bold mb-0">Layouts & Editors</h4>
               </div>
             </a>
           </div>
 
           <div class="col-6 col-sm-6 col-lg-3 col-md-3 mt-7">
-            <a class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center" href="https://drupalwxt.org/features.html#more" target="_blank">
+            <a
+              class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center"
+              href="https://drupalwxt.org/features.html#more"
+              target="_blank"
+            >
               <div class="card-body p-5 my-auto">
                 <div class="icon-circle bg-primary text-white mb-5">
                   <i class="fe fe-plus-square"></i>
                 </div>
-                <h4 class="fw-bold mb-0">
-                  More...
-                </h4>
+
+                <h4 class="fw-bold mb-0">More...</h4>
               </div>
             </a>
-          </div>   
-          
+          </div>
+
           <div class="col-0 col-sm-6 col-lg-3 col-md-3"></div>
-          
-        </div> 
+        </div>
       </div>
-    </section>    
+    </section>
 
     <section class="pt-8 pb-8 pb-5 pt-md-11 pb-md-10 bg-white">
       <div class="container">
         <div class="row justify-content-center pb-5">
           <div class="col-12 col-md-10 col-lg-8 text-center">
             <!-- Heading -->
+
             <h2 class="fw-bold cb-title-dark">
               Foundation and Fundamentals Package
             </h2>
+
             <p class="text-primary">
               The best package to get you started and on your way.
             </p>
           </div>
-        </div> <!-- / .row -->
+        </div>
+        <!-- / .row -->
+
         <div class="row">
-            <div class="col-12 col-lg-6 align-items-center mb-8 aos-init aos-animate equal-h-ctm" data-aos="fade-up">
-              <div class="card card-border card-border-xl border-primary shadow-light-lg mb-6 mb-md-0 lift lift-lg">
-                <div class="card-body">
-                  <h3 class="fw-bold mb-2">
-                    Overview
-                  </h3>
-                  <p class="text-gray-700 mb-0">
-                    This kick-start package gets you and your team informed on all of the key knowledge needed to start your exciting experience in developing your web property in Drupal and the Drupal WxT Distribution.
-                    <br><br>
-                    As part of the package we will provide the following (on the right).
+          <div
+            class="col-12 col-lg-6 align-items-center mb-8 aos-init aos-animate equal-h-ctm"
+            data-aos="fade-up"
+          >
+            <div
+              class="card card-border card-border-xl border-primary shadow-light-lg mb-6 mb-md-0 lift lift-lg"
+            >
+              <div class="card-body">
+                <h3 class="fw-bold mb-2">Overview</h3>
+
+                <p class="text-gray-700 mb-0">
+                  This kick-start package gets you and your team informed on all
+                  of the key knowledge needed to start your exciting experience
+                  in developing your web property in Drupal and the Drupal WxT
+                  Distribution.
+
+                  <br /><br />
+
+                  As part of the package, we will provide the following (on the
+                  right).
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="col-12 col-lg-6 align-items-center mb-0 mb-md-8 mb-lg-8 aos-init aos-animate equal-h-ctm"
+            data-aos="fade-up"
+          >
+            <div
+              class="card card-border card-border-xl border-primary shadow-light-lg mb-md-0 lift lift-lg"
+            >
+              <div class="card-body">
+                <h3 class="fw-bold mb-2">Whats included</h3>
+
+                <div class="d-flex">
+                  <div
+                    class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                  >
+                    <i class="fe fe-check"></i>
+                  </div>
+
+                  <p>A Drupal Orientation course</p>
+                </div>
+
+                <div class="d-flex">
+                  <div
+                    class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                  >
+                    <i class="fe fe-check"></i>
+                  </div>
+
+                  <p>A Drupal WxT Orientation course</p>
+                </div>
+
+                <div class="d-flex">
+                  <div
+                    class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                  >
+                    <i class="fe fe-check"></i>
+                  </div>
+
+                  <p>
+                    Install Drupal WxT on your system or provide a cloud
+                    environment work in.
                   </p>
+                </div>
+
+                <div class="d-flex">
+                  <div
+                    class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                  >
+                    <i class="fe fe-check"></i>
                   </div>
-               </div>
-             </div>
-             <div class="col-12 col-lg-6 align-items-center mb-0 mb-md-8 mb-lg-8 aos-init aos-animate equal-h-ctm" data-aos="fade-up">
-              <div class="card card-border card-border-xl border-primary shadow-light-lg mb-md-0 lift lift-lg">
-                <div class="card-body">
-                  <h3 class="fw-bold mb-2">
-                    Whats included
-                  </h3>
-                  <div class="d-flex">
-                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                    <p>
-                      A Drupal Orientation course
-                    </p>
+
+                  <p>
+                    Provide mentoring to your developers, project managers, and
+                    business owners
+                  </p>
+                </div>
+
+                <div class="d-flex">
+                  <div
+                    class="badge badge-rounded-circle bg-primary-soft mt-1 me-4"
+                  >
+                    <i class="fe fe-check"></i>
                   </div>
-                  <div class="d-flex">
-                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                    <p>
-                      A Drupal WxT Orientation course
-                    </p>
-                  </div>    
-                  <div class="d-flex">
-                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                    <p>
-                      Install Drupal WxT on your system or provide a cloud environment work in.
-                    </p>
-                  </div>
-                  <div class="d-flex">
-                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                    <p>
-                      Provide mentoring to your developers, project managers, and business owners
-                    </p>
-                  </div>   
-                  <div class="d-flex">
-                    <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                    <p>
-                      Teach you about the core DrupalWxT features (listed above)
-                    </p>
-                  </div>                                                                 
-                  </div>
-               </div>
-             </div>             
-     </div>
-      </div> <!-- / .container -->
+
+                  <p>
+                    Teach you about the core DrupalWxT features (listed above)
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- / .container -->
     </section>
 
     <div class="position-relative">
@@ -346,114 +460,157 @@
         {{> waves/wave-1}}
       </div>
     </div>
-    
+
     <!-- GC Intro -->
+
     <section class="pt-8 pt-md-11 pb-3 pb-md-3 bg-light">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-12 col-md-5 col-lg-6 order-md-2">
-
             <!-- iPhone + Macbook -->
+
             <div class="w-md-150 w-lg-130 mb-6 mb-md-0">
               <div class="device-combo device-combo-iphonex-macbook">
-
                 <!-- iPhone -->
+
                 <div class="device device-iphonex">
-                  <img src="{{webRoot}}/assets/img/screenshots/mobile/drupalwxt-theme-selector.png" class="device-screen" alt="Drupal Screen">
-                  <img src="{{webRoot}}/assets/img/devices/iphonex.svg" class="img-fluid" alt="Iphone wrapper">
+                  <img
+                    src="{{webRoot}}/assets/img/screenshots/mobile/drupalwxt-theme-selector.png"
+                    class="device-screen"
+                    alt="Drupal Screen"
+                  />
+
+                  <img
+                    src="{{webRoot}}/assets/img/devices/iphonex.svg"
+                    class="img-fluid"
+                    alt="Iphone wrapper"
+                  />
                 </div>
 
                 <!-- Macbook -->
-                <div class="device device-macbook">
-                  <img src="{{webRoot}}/assets/img/screenshots/desktop/drupalwxt-book-gcsubway.png" class="device-screen" alt="Canada Screenshot">
-                  <img src="{{webRoot}}/assets/img/devices/macbook.svg" class="img-fluid" alt="Macbook wrapper">
-                </div>
 
+                <div class="device device-macbook">
+                  <img
+                    src="{{webRoot}}/assets/img/screenshots/desktop/drupalwxt-book-gcsubway.png"
+                    class="device-screen"
+                    alt="Canada Screenshot"
+                  />
+
+                  <img
+                    src="{{webRoot}}/assets/img/devices/macbook.svg"
+                    class="img-fluid"
+                    alt="Macbook wrapper"
+                  />
+                </div>
               </div>
             </div>
-
           </div>
-          <div class="col-12 col-md-7 col-lg-6 order-md-1">
 
+          <div class="col-12 col-md-7 col-lg-6 order-md-1">
             <!-- Heading -->
+
             <h2>
-              We are Drupal CMS experts <br>
-              <span class="text-primary">with unmatched public sector experience</span>.
+              We are Drupal CMS experts <br />
+
+              <span class="text-primary"
+                >with unmatched public sector experience</span
+              >.
             </h2>
 
             <!-- Text -->
-            <p class="fs-lg text-muted mb-6">
-              Many of our clients are enterprise-class Governments, we have experience in Federal, Provincial and Municipal projects. From strategy to execution of nationwide intranets for minitries and global websites... it's time to leverage Open Source. See why Drupal and Solr are gaining so much momemtum in all level's of government, and how you can easily deploy a multilingual and standards compliant collaborative front-end platform.
-            </p>
 
+            <p class="fs-lg text-muted mb-6">
+              Many of our clients are enterprise-class Governments, we have
+              experience in Federal, Provincial and Municipal projects. From
+              strategy to execution of nationwide intranets for minitries and
+              global websites... it's time to leverage Open Source. See why
+              Drupal and Solr are gaining so much momemtum in all level's of
+              government, and how you can easily deploy a multilingual and
+              standards compliant collaborative front-end platform.
+            </p>
           </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
     </section>
 
-
     <!-- GC Top 3 -->
+
     <section class="pt-5 pt-md-5 pb-8 pb-md-8 bg-light">
       <div class="container">
         <div class="row">
-     
-            <!-- List -->
-            <div class="d-flex col-12 col-lg-4">
-              <!-- Icon -->
-              <div class="icon text-primary">
-                {{> files/cloud-upload}}
-              </div>
-              <div class="ms-5">
-                <!-- Heading -->
-                <h4 class="mb-1">
-                  Managed Services
-                </h4>
-                <!-- Text -->
-                <p class="text-muted mb-5">
-                  We can provide turnkey fully hosted solutions in our Government of Canada compliant managed cloud platform, or help manage within yours.
-                </p>
-              </div>
-            </div>
-            <div class="d-flex col-12 col-lg-4">
-              <!-- Icon -->
-              <div class="icon text-primary">
-                {{> general/shield-check}}
-              </div>
-              <div class="ms-5">
-                <!-- Heading -->
-                <h4 class="mb-1">
-                  Security Qualifications
-                </h4>
-                <!-- Text -->
-                <p class="text-muted mb-5">
-                  Not only is our entire team SECRET cleared, we also have corporate, facilities and environment clearances needed along with awarded supply arrangements.
-                </p>
-              </div>
-            </div>
-            <div class="d-flex col-12 col-lg-4">
-              <!-- Icon -->
-              <div class="icon text-primary">
-                {{> communication/clipboard-list}}
-              </div>
-              <div class="ms-5">
-                <!-- Heading -->
-                <h4 class="mb-1">
-                  Procurement Vehicles
-                </h4>
-                <!-- Text -->
-                <p class="text-muted mb-0">
-                  We have established Government of Canada supply arrangements for most streams on Solution-based SBIPS and Task-based TBIPS ProServices at SECRET level.
-                </p>
+          <!-- List -->
 
-              </div>
+          <div class="d-flex col-12 col-lg-4">
+            <!-- Icon -->
 
+            <div class="icon text-primary">{{> files/cloud-upload}}</div>
+
+            <div class="ms-5">
+              <!-- Heading -->
+
+              <h4 class="mb-1">Managed Services</h4>
+
+              <!-- Text -->
+
+              <p class="text-muted mb-5">
+                We can provide turnkey fully hosted solutions in our Government
+                of Canada compliant managed cloud platform, or help manage
+                within yours.
+              </p>
             </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
+          </div>
+
+          <div class="d-flex col-12 col-lg-4">
+            <!-- Icon -->
+
+            <div class="icon text-primary">{{> general/shield-check}}</div>
+
+            <div class="ms-5">
+              <!-- Heading -->
+
+              <h4 class="mb-1">Security Qualifications</h4>
+
+              <!-- Text -->
+
+              <p class="text-muted mb-5">
+                Not only is our entire team SECRET cleared, we also have
+                corporate facilities and environment clearances needed along
+                with awarded supply arrangements.
+              </p>
+            </div>
+          </div>
+
+          <div class="d-flex col-12 col-lg-4">
+            <!-- Icon -->
+
+            <div class="icon text-primary">
+              {{> communication/clipboard-list}}
+            </div>
+
+            <div class="ms-5">
+              <!-- Heading -->
+
+              <h4 class="mb-1">Procurement Vehicles</h4>
+
+              <!-- Text -->
+
+              <p class="text-muted mb-0">
+                We have established Government of Canada supply arrangements for
+                most streams on Solution-based SBIPS and Task-based TBIPS
+                ProServices at the secret level.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
     </section>
 
-    
     <!-- SHAPE -->
+
     <div class="position-relative">
       <div class="shape shape-bottom shape-fluid-x text-gray-200">
         {{> curves/curve-1}}
@@ -461,10 +618,11 @@
     </div>
 
     <!-- FOOTER -->
+
     {{> partials/footer classList="bg-gray-200"}}
 
     <!-- JAVASCRIPT -->
+
     {{> partials/scripts}}
-    
   </body>
 </html>
