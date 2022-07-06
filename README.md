@@ -1,10 +1,8 @@
 # OpenPlus Beta Site
 
-To see Site Templates, go to https://openplus.github.io/op-site-templates/dist/
+To see Site Templates, go to https://openplus.github.io/op-site-templates/
 
-https://openplus.github.io/op-site-templates/
-
-pass same as our admin
+passord same as our admin
 
 # OpenPlus Live Site
 
