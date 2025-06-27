@@ -11,6 +11,32 @@
 </head>
 
 <body>
+  <!-- MODALS -->
+    <!-- Example -->
+    <div class="modal fade" id="modalCTA" tabindex="-1" role="dialog" aria-labelledby="modalExampleTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+    
+            <!-- Close -->
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    
+    
+            <!-- Heading -->
+            <h2 class="fw-bold text-center mb-1" id="modalExampleTitle">
+              Let's talk.
+            </h2>
+    
+            <!-- Text -->
+            <p class="fs-lg text-center text-body-secondary mb-6 mb-md-2">
+              We can help make your project a success.
+            </p>
+    <iframe src="https://forms.monday.com/forms/embed/4e6946cfc457f1da636029109e0ce7a7?r=use1" width="405" height="600" style="border: 1px;"></iframe>
+    
+          </div>
+        </div>
+      </div>
+    </div>
 
   <!-- NAVBAR -->
   {{> partials/navbar classList="navbar-light bg-white" container="container" button="primary"}}
@@ -58,7 +84,7 @@
       <div class="row">
         <div class="col-12 col-md-3 col-lg-3 col-xl-3 d-flex">
           <div class="card bg-primary text-white shadow-light-lg mb-6 lift lift-lg" style="background-image: url({{webRoot}}/assets/img/extra/lets-work-together.jpg);">
-            <a class="card-body py-12 text-center" href="{{webRoot}}/contact/">
+            <a class="card-body py-12 text-center btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCTA">
               <p class="display-2"><i class="fe fe-mail me-2"></i></p>
               <h3 class="display-5 fw-bold">
                 Let's Work Together!

@@ -13,6 +13,32 @@
     <!-- NAVBAR -->
     {{> partials/navbar classList="navbar-light bg-white" container="container" button="primary"}}
 
+    <!-- MODALS CTA -->
+    <div class="modal fade" id="modalCTA" tabindex="-1" role="dialog" aria-labelledby="modalExampleTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+    
+            <!-- Close -->
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    
+    
+            <!-- Heading -->
+            <h2 class="fw-bold text-center mb-1" id="modalExampleTitle">
+              Let's talk.
+            </h2>
+    
+            <!-- Text -->
+            <p class="fs-lg text-center text-body-secondary mb-6 mb-md-2">
+              We can help make your project a success.
+            </p>
+    <iframe src="https://forms.monday.com/forms/embed/4e6946cfc457f1da636029109e0ce7a7?r=use1" width="405" height="600" style="border: 1px;"></iframe>
+    
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- WELCOME -->
     <section class="pt-4 pt-md-11">
       <div class="container">
@@ -381,15 +407,15 @@
         <div class="row align-items-center">
           <div class="col-12 col-md">
             <h3 class="mb-1">
-              We're hiring!
+              Let's work together!
             </h3>
             <p class="fs-lg text-muted mb-6 mb-md-0">
-              Check out for Current opportunities.
+              Contact us to help make your project a success.
             </p>
           </div>
           <div class="col-12 col-md-auto">
-            <a href="{{webRoot}}/contact/" class="btn btn-outline-secondary mb-1 lift">
-              Join the team
+            <a class="btn btn-outline-secondary mb-1 lift" data-bs-toggle="modal" data-bs-target="#modalCTA">
+              Let's connect
             </a>
           </div>
         </div>

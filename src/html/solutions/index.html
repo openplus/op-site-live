@@ -3,12 +3,37 @@
   <head>
     {{> partials/head
       title="Solutions - OpenPlus"
-      description="OpenPlus Government open source solutions build on DrupalWxT accelerators"
+      description="OpenPlus Government solutions"
       social-image="/assets/img/photos/openplus-social.jpg"
       url="/solutions/"
     }}
   </head>
   <body class="bg-light">
+    <!-- MODALS CTA -->
+    <div class="modal fade" id="modalCTA" tabindex="-1" role="dialog" aria-labelledby="modalExampleTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+    
+            <!-- Close -->
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    
+    
+            <!-- Heading -->
+            <h2 class="fw-bold text-center mb-1" id="modalExampleTitle">
+              Let's talk.
+            </h2>
+    
+            <!-- Text -->
+            <p class="fs-lg text-center text-body-secondary mb-6 mb-md-2">
+              We can help make your project a success.
+            </p>
+    <iframe src="https://forms.monday.com/forms/embed/4e6946cfc457f1da636029109e0ce7a7?r=use1" width="405" height="600" style="border: 1px;"></iframe>
+    
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- NAVBAR -->
     {{> partials/navbar classList="navbar-light bg-white" container="container" button="primary"}}
@@ -1570,7 +1595,7 @@
             </h3>
 
             <!-- Button -->
-            <a class="btn btn-primary" href="{{webRoot}}/contact/">
+            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCTA">
               Tell us about your project
             </a>
 
