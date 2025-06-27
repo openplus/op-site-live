@@ -1,3 +1,4 @@
 # Ignore Mac system files
 .DS_store
 Icon\r\r
+dist/CNAME
