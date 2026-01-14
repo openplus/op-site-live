@@ -1,4 +1,9 @@
 # Ignore Mac system files
 .DS_store
 Icon\r\r
+
+# Dependencies
+node_modules/
+
+# Netlify / GitHub Pages / static hosting
 dist/CNAME
