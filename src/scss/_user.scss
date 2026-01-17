@@ -116,7 +116,7 @@
 
 .navbar-light .navbar-nav .nav-link,
 .navbar-light .navbar-nav .dropdown-item {
-  color: #65AA02 !important;
+  color: #4c8200 !important;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -136,4 +136,63 @@
 
 .btn-primary.btn-active {
   background: #231f20;
+}
+// Urgency bar - dark red bar at top with messaging
+
+// Desktop version (md and larger)
+@media (min-width: 768px) {
+  .urgency-bar {
+    background: linear-gradient(90deg, #663399, #9d0101);
+    padding: 8px 16px;
+    width: 100%;
+    z-index: 1031;
+  }
+
+  .urgency-bar-text {
+    color: #fff;
+    font-size: 0.875rem;
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+
+  .urgency-bar-text a {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  .urgency-bar-text a:hover {
+    color: #f0f0f0;
+  }
+}
+
+// Mobile version (sm and smaller)
+@media (max-width: 767.98px) {
+  .urgency-bar {
+    background: linear-gradient(90deg, #663399, #810101);
+    padding: 4px 8px;
+    width: 100%;
+    z-index: 1031;
+  }
+
+  .urgency-bar-text {
+    color: #fff;
+    font-size: 0.875rem;
+    display: block;
+    text-align: center;
+    margin: 0;
+  }
+
+  .urgency-bar-text a {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  .urgency-bar-text a:hover {
+    color: #f0f0f0;
+  }
+
+  .display-1 {
+    font-size: 2.5rem;
+  }
 }

@@ -27,3 +27,18 @@ We provide an "unofficial" Landkit Figma file for you to play with. Learn more a
 ### Support
 
 Good Themes is happy to provide support for issues. Shoot us an email at support@goodthemes.co and we'll get you squared away.
+
+### Editing content
+NOTE: you need npm version 16 and might need to run volta which helps pin to that version
+
+Step 1: 
+npm ci
+npm start 
+
+Should loadup a browser page to live /src files. 
+Make changes as needed, once all is OK...
+
+Step 3: 
+npm run build
+
+This updates the entire dist/ compiler. which Github Pages runs from.
