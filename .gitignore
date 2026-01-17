@@ -6,4 +6,4 @@ Icon\r\r
 node_modules/
 
 # Netlify / GitHub Pages / static hosting
-dist/CNAME
+# dist/CNAME
