@@ -1,0 +1,903 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    {{> partials/head
+      title="Transport Canada (GC) - OpenPlus"
+      description="See the making of Transport Canada Digital Transformation and Drupal Content Management Platform"
+      social-image="/assets/img/photos/tc-site-social.png"
+      url="/projects/tc-site-intra.html"
+    }}
+  </head>
+  <body class="bg-light">
+
+  <!-- NAVBAR -->
+    {{> partials/navbar classList="navbar-light bg-white" container="container" button="primary"}}
+
+    <section class="py-8 py-md-11 bg-cover" id="welcome" style="background-image: url({{webRoot}}/assets/img/extra/tc-poster.jpg);">
+      <div class="shape shape-blur-3 text-white">
+        <svg viewBox="0 0 1738 487" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h1420.92s713.43 457.505 0 485.868C707.502 514.231 0 0 0 0z" fill="url(#paint0_linear)"></path><defs><linearGradient id="paint0_linear" x1="0" y1="0" x2="1049.98" y2="912.68" gradientUnits="userSpaceOnUse"><stop stop-color="currentColor" stop-opacity=".075"></stop><stop offset="1" stop-color="currentColor" stop-opacity="0"></stop></linearGradient></defs></svg>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+        <div class="col-12 col-md-7 col-lg-7 mb-5 aos-init aos-animate" data-aos="fade-up">
+          <h1 class="text-center text-md-start text-white fw-bold">
+            Transport Canada<br>Digital Transformation and Drupal Content Management Platform
+          </h1>
+          <p class="text-md-start text-white mb-6 mb-lg-6">
+            OpenPlus was commissioned for a comprehensive multi-Drupal project modernization and migration initiative. This project consisted of introducing, deploying and providing knowledge transfer on a modernized Drupal environment consolidation able to run many containerized site deployments with support for dev, staging, production. This scope includes all of the modern CI/CD DevOps required to run pipelines with comprehensive configuration management, migration from other environments, as well as content migration with bulk scripted actions, conversions and cleansing.
+          </p>
+          <div class="text-center text-md-start">
+            <a href="https://tc.canada.ca/" class="btn btn-white shadow lift me-1" target="_blank">Visit <strong>tc.canada.ca</strong><i class="fe fe-external-link d-none d-md-inline ms-3"></i></a>
+          </div>
+        </div>
+          <div class="col-12 col-md-5 col-lg-5 aos-init aos-animate" data-aos="fade-up">
+            <div class="accordion shadow-light-lg mb-md-6" id="helpAccordionOne">
+              <div class="accordion-item">
+                <div class="accordion-button" role="button">
+                  <div class="mx-auto">
+                    <h4 class="fw-bold mb-0">
+                        <img class="figure-img img-fluid rounded mb-0" src="{{webRoot}}/assets/img/extra/gov-canada.png">
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#helpOne" aria-expanded="true" aria-controls="helpOne">
+                  <span class="me-4 fw-bold h4" id="helpOneHeading">
+                    Industry
+                  </span>
+                  <div class="text-muted ms-auto">
+                    <span class="fs-sm me-4 d-none d-md-inline">
+                    </span>
+                  </div>
+                </div>
+                <div class="accordion-collapse collapse" id="helpOne" aria-labelledby="helpOneHeading" data-bs-parent="#helpAccordionOne">
+                  <div class="accordion-body">
+                    <div class="d-flex">
+                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                        <i class="fe fe-check"></i>
+                      </div>
+                      <p class="mb-2"><small>Federal Government</small></p>
+                    </div>
+                    <div class="d-flex">
+                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                        <i class="fe fe-check"></i>
+                      </div>
+                      <p class="mb-2"><small>Transportation</small></p>
+                    </div>  
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#helpTwo" aria-expanded="false" aria-controls="helpTwo">
+                  <span class="me-4 fw-bold h4" id="helpTwoHeading">
+                    Type
+                  </span>
+                  <div class="text-muted ms-auto">
+                    <span class="fs-sm me-4 d-none d-md-inline">
+                    </span>
+                  </div>
+                </div>
+                <div class="accordion-collapse collapse" id="helpTwo" aria-labelledby="helpTwoHeading" data-bs-parent="#helpAccordionOne">
+                  <div class="accordion-body">
+                    <div class="d-flex">
+                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                        <i class="fe fe-check"></i>
+                      </div>
+                      <p class="mb-2"><small>Government Website</small></p>
+                    </div>
+                    <div class="d-flex">
+                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                        <i class="fe fe-check"></i>
+                      </div>
+                      <p class="mb-2"><small>Online Services</small></p>
+                    </div>
+                    <div class="d-flex">
+                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                        <i class="fe fe-check"></i>
+                      </div>
+                      <p class="mb-2"><small>Open Source solution</small></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#helpThree" aria-expanded="false" aria-controls="helpThree">
+                  <span class="me-4 fw-bold h4" id="helpThreeHeading">
+                    Services
+                  </span>
+                  <div class="text-muted ms-auto">
+                    <span class="fs-sm me-4 d-none d-md-inline">
+                    </span>
+                  </div>
+                </div>
+                <div class="accordion-collapse collapse" id="helpThree" aria-labelledby="helpThreeHeading" data-bs-parent="#helpAccordionOne">
+                  <div class="accordion-body">
+                    <div class="d-flex">
+                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                        <i class="fe fe-check"></i>
+                      </div>
+                      <p class="mb-2"><small>Consulting</small></p>
+                    </div>
+                    <div class="d-flex">
+                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                        <i class="fe fe-check"></i>
+                      </div>
+                      <p class="mb-2"><small>Drupal Development</small></p>
+                    </div> 
+                    <div class="d-flex">
+                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                        <i class="fe fe-check"></i>
+                      </div>
+                      <p class="mb-2"><small>Web Design & Theming</small></p>
+                    </div> 
+                    <div class="d-flex">
+                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                        <i class="fe fe-check"></i>
+                      </div>
+                      <p class="mb-2"><small>API Integrations</small></p>
+                    </div> 
+                    <div class="d-flex">
+                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                        <i class="fe fe-check"></i>
+                      </div>
+                      <p class="mb-2"><small>Content Migration</small></p>
+                    </div> 
+                    <div class="d-flex">
+                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                        <i class="fe fe-check"></i>
+                      </div>
+                      <p class="mb-2"><small>Project Management</small></p>
+                    </div> 
+                    <div class="d-flex">
+                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                        <i class="fe fe-check"></i>
+                      </div>
+                      <p class="mb-2"><small>Reporting and Testing</small></p>
+                    </div>  
+                    <div class="d-flex">
+                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                        <i class="fe fe-check"></i>
+                      </div>
+                      <p class="mb-2"><small>WCAG Accessibility</small></p>
+                    </div> 
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <div class="accordion-button collapsed" role="button" data-bs-toggle="collapse" data-bs-target="#helpFour" aria-expanded="false" aria-controls="helpFour">
+                  <span class="me-4 fw-bold h4" id="helpFourHeading">
+                    Technology
+                  </span>
+                  <div class="text-muted ms-auto">
+                    <span class="fs-sm me-4 d-none d-md-inline">
+                    </span>
+                  </div>
+                </div>
+                <div class="accordion-collapse collapse" id="helpFour" aria-labelledby="helpFourHeading" data-bs-parent="#helpAccordionOne">
+                  <div class="accordion-body">
+                    <div class="d-flex">
+                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                        <i class="fe fe-check"></i>
+                      </div>
+                      <p class="mb-2"><small><a href="{{webRoot}}/solutions/" class="text-primary">Drupal WxT</a></small></p>
+                    </div>
+                    <div class="d-flex">
+                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                        <i class="fe fe-check"></i>
+                      </div>
+                      <p class="mb-2"><small><a href="{{webRoot}}/solutions/" class="text-primary">GC WebForms</a></small></p>
+                    </div>
+                    <div class="d-flex">
+                      <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                        <i class="fe fe-check"></i>
+                      </div>
+                      <p class="mb-2"><small><a href="{{webRoot}}/solutions/gcsovereign.html" class="text-primary">Sovereign, Containerization</a></small></p>
+                  </div>
+                  </div>
+                </div>
+              </div>       
+            </div>
+          </div>
+        </div> 
+      </div> 
+    </section>
+
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x text-light">
+        {{> curves/curve-1}}
+      </div>
+    </div>    
+
+    <!-- TC Site: Introduction -->
+    <section class="py-8 py-md-11" id="project-d">
+      <div class="container">
+       <section class="pt-6 pb-6">
+        <div class="container text-center">
+          <span class="badge rounded-pill bg-dark">
+           <span class="h5 fw-bold">Sovereign Open Source Accelerators</span>
+          </span>
+        </div>
+      </section>
+        <div class="row justify-content-center mb-7">
+          <div class="col-12 text-center">
+            <h1 class="display-4 fw-bold cb-title-dark">
+              Public Site Project Overview
+            </h1>
+          </div>
+        </div>
+        <div class="row justify-content-between">
+          <div class="col-12 mb-6" data-aos="fade-up">
+          <p class="mb-5">
+            Transport Canada's flagship public website required modernization from the legacy RedDot CMS platform to DrupalWxT with full WCAG 2.1 AA compliance. The site receives over <strong>10 million annual visitors</strong> seeking transportation services, regulations, and incident reporting.
+          </p>
+          <p class="mb-5">
+            This 71-month initiative involved complete platform migration, content architecture redesign, integration with modern government services, and implementation of containerized DevOps infrastructure on Azure government cloud with automated CI/CD pipelines. The site taylors to content architecture for various transportation modes including air, marine, rail, and road.
+          </p>
+          </div>
+        </div>
+          <img src="{{webRoot}}/assets/img/extra/tc-site-screens.png" alt="Transport Consultation" class="img-fluid rounded mb-6" data-aos="fade-up" data-aos-delay="100">
+      </div>
+    </section>
+
+    <!-- TC Site: Bullet List Features -->
+     <section class="py-8 py-md-10 bg-gray-200">
+      <div class="container">
+        <!-- Badge -->
+            <span class="badge rounded-pill bg-primary-soft mb-3">
+              <span class="h6 text-uppercase">Co-developed and Open Source</span>
+            </span>
+        <div class="row mb-7">
+          <div class="col-12">
+            <h2 class="fw-bold lb-title-dark">
+              Development Scope & Ongoing Support
+            </h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 mb-5 mb-md-0" data-aos="fade-up">
+            <h3 class="h5 fw-bold mb-4">Our Development Scope</h3>
+            <!-- Item -->
+            <div class="d-flex">
+              <!-- Check -->
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <!-- Text -->
+              <p>
+                <strong>Work Breakdown Structure (WBS)</strong> - Comprehensive project planning and resource allocation
+              </p>
+            </div>
+            <!-- Item -->
+            <div class="d-flex">
+              <!-- Check -->
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <!-- Text -->
+              <p>
+                <strong>Content Architecture</strong> - Taxonomy design, content modeling, and information hierarchy
+              </p>
+            </div>
+            <!-- Item -->
+            <div class="d-flex">
+              <!-- Check -->
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <!-- Text -->
+              <p>
+                <strong>Azure Cloud Architecture</strong> - GC Cloud environment setup with containerized infrastructure
+              </p>
+            </div>
+            <!-- Item -->
+            <div class="d-flex">
+              <!-- Check -->
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <!-- Text -->
+              <p>
+                <strong>Content Team Training</strong> - Comprehensive onboarding and ongoing education for content creators
+              </p>
+            </div>
+            <!-- Item -->
+            <div class="d-flex">
+              <!-- Check -->
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <!-- Text -->
+              <p>
+                <strong>CI/CD Pipeline Implementation</strong> - Automated build, test, and deployment processes
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6" data-aos="fade-up">
+            <h3 class="h5 fw-bold mb-4">Ongoing Support & Maintenance</h3>
+            <!-- Item -->
+            <div class="d-flex">
+              <!-- Check -->
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <!-- Text -->
+              <p>
+                <strong>Monitoring & Alerting</strong> - Proactive system monitoring with automated alerts for performance issues
+              </p>
+            </div>
+            <!-- Item -->
+            <div class="d-flex">
+              <!-- Check -->
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <!-- Text -->
+              <p>
+                <strong>Security Patching</strong> - Regular security updates, Drupal core patches, and module updates
+              </p>
+            </div>
+            <!-- Item -->
+            <div class="d-flex">
+              <!-- Check -->
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <!-- Text -->
+              <p>
+                <strong>Performance Optimization</strong> - Database tuning, caching optimization, and CDN management
+              </p>
+            </div>
+            <!-- Item -->
+            <div class="d-flex">
+              <!-- Check -->
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <!-- Text -->
+              <p>
+                <strong>Feature Development</strong> - New module implementations, theme customizations, and functionality enhancements
+              </p>
+            </div>
+            <!-- Item -->
+            <div class="d-flex">
+              <!-- Check -->
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <!-- Text -->
+              <p>
+                <strong>Content Contributor Training</strong> - Ongoing education, video tutorials, and documentation updates
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TC Site: Project SCREENSHOTS -->
+    <section class="py-8 py-md-10 bg-white">
+      <div class="container">
+        <div class="row mb-7">
+          <div class="col-12">
+            <h2 class="fw-bold lb-title-dark">GC Forms and Incident Management Screenshots</h2>
+          </div>
+          <p>Deliver a comprehensive WebForm builder which complies to GC Digital Standards and Accessibility. Drupal WebForm is used in several areas throughout the site and intranet, including incident reporting and feedback collection. It also provides custom email alerts and workflows for administrative teams.</p>
+        </div>
+        <div class="row">
+          <div class="col-12 col-lg-9 mb-5 mb-lg-0">
+            <div class="row mb-5">
+              <div class="col-12" data-aos="fade-up">
+                <img src="{{webRoot}}/assets/img/projects/transport/image10.png" class="screenshot img-fluid rounded shadow-lg" alt="Dashboard">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12" data-aos="fade-up">
+                <img src="{{webRoot}}/assets/img/projects/transport/image17.png" class="screenshot img-fluid rounded shadow-lg" alt="Comment Thread">
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-3" data-aos="fade-up">
+            <img src="{{webRoot}}/assets/img/projects/transport/image14.png" class="screenshot img-fluid rounded shadow-lg w-100 h-auto" alt="Mobile View">
+          </div>
+        </div>
+      </div>
+    </section>  
+
+    <!-- WebForm Builder Interface -->
+    <section class="py-4 py-md-6 pb-8 pb-md-10 bg-white">
+      <div class="container">
+        <div class="row pt-4">
+          <div class="text-center">
+            <h3 class="fw-bold">
+              Our WebForm Builder Interface
+            </h3>
+            <p class="text-primary">Click to open full screen</p>
+          </div>
+          <div class="col-6 col-md-3">
+            <!-- Image -->
+            <a class="d-block mb-3 mb-md-0" data-bigpicture='{"imgSrc": "{{webRoot}}/assets/img/projects/transport/image7.png"}' href="#">
+              <img src="{{webRoot}}/assets/img/projects/transport/image7.png" class="img-fluid screenshot lift" alt="Form Admin">
+            </a>
+            <p class="fs-sm mt-3 text-center">
+              Form Admin
+            </p>
+          </div>
+          <div class="col-6 col-md-3">
+            <!-- Image -->
+            <a class="d-block mb-3 mb-md-0" data-bigpicture='{"imgSrc": "{{webRoot}}/assets/img/projects/transport/image8.png"}' href="#">
+              <img src="{{webRoot}}/assets/img/extra/gcnotigy-subscribe-ui2.png" class="img-fluid screenshot lift" alt="Easy Translation">
+            </a>
+            <p class="fs-sm mt-3 text-center">
+              Easy Translation
+            </p>
+          </div>
+          <div class="col-6 col-md-3">
+            <!-- Image -->
+            <a class="d-block mb-3 mb-md-0" data-bigpicture='{"imgSrc": "{{webRoot}}/assets/img/extra/gcnotigy-subscribe-ui3.png"}' href="#">
+              <img src="{{webRoot}}/assets/img/extra/gcnotigy-subscribe-ui3.png" class="img-fluid screenshot lift" alt="Field Elements">
+            </a>
+            <p class="fs-sm mt-3 text-center">
+              Field Elements
+            </p>
+          </div>
+          <div class="col-6 col-md-3">
+            <!-- Image -->
+            <a class="d-block mb-3 mb-md-0" data-bigpicture='{"imgSrc": "{{webRoot}}/assets/img/extra/gcnotigy-subscribe-ui4.png"}' href="#">
+              <img src="{{webRoot}}/assets/img/extra/gcnotigy-subscribe-ui4.png" class="img-fluid screenshot lift" alt="Download Reports">
+            </a>
+            <p class="fs-sm mt-3 text-center">
+              Download Reports
+            </p>
+          </div>
+        </div> <!-- / .row -->
+      </div>
+    </section>
+
+    <!-- TC Site: Cloud AKS -->
+    <section class="py-8 py-md-10 bg-gray-200">
+      <div class="container">
+        <div class="row mb-7">
+          <div class="col-12">
+            <h2 class="fw-bold lb-title-dark">
+              Cloud Environment Modernization & Containerization
+            </h2>
+          </div>
+        </div>
+        <div class="row align-items-center justify-content-between">
+          <div class="col-12 col-md-6 mb-5 mb-md-0" data-aos="fade-right">
+            <img src="{{webRoot}}/assets/img/projects/transport/image4.png" class="screenshot img-fluid rounded shadow-lg" alt="Containerized Architecture">
+          </div>
+          <div class="col-12 col-md-6" data-aos="fade-left">
+            <h3 class="mb-4">Modern Infrastructure Stack</h3>
+            <p class="mb-4">Containerized DrupalWxT deployment on Azure GC Cloud with Docker, Kubernetes orchestration, automated scaling, and GC Design System theming for consistent user experience across all government services.</p>
+            <img src="{{webRoot}}/assets/img/extra/tc-aks-cover.png" class="img-fluid rounded shadow-lg mt-4 w-50 h-50" alt="TC AKS Cover">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TC INTRA: Introduction -->
+    <section class="py-8 py-md-11" id="project-d">
+      <div class="container">
+       <section class="pt-6 pb-6">
+        <div class="container text-center">
+          <span class="badge rounded-pill bg-dark">
+           <span class="h5 fw-bold">Sovereign Open Source Accelerators</span>
+          </span>
+        </div>
+      </section>
+        <div class="row justify-content-center mb-7">
+          <div class="col-12 text-center">
+            <h1 class="display-4 fw-bold cb-title-dark">
+              Intranet Project Overview
+            </h1>
+            <p class="lead text-muted">Internal Site with Single Sign-on Office 365 Integration - 6,000 Daily Users</p>
+          </div>
+        </div>
+        <div class="row justify-content-between">
+          <div class="col-12 col-md-4 mb-5 mb-md-0" data-aos="fade-right">
+            <p class="mb-5">MyTC serves as Transport Canada's internal communications hub, supporting 6,000 daily active users including content creators and administrators. The platform modernized legacy RedDot content including 4,000+ bilingual pages with role-based access control for regional offices.</p>
+            <p class="mb-5">Implementation includes organizational structure alignment with Air, Rail, Marine, and Dangerous Goods divisions, maintaining WCAG 2.1 AA accessibility standards while providing administrators with powerful content management and workflow capabilities.</p>
+          </div>
+          <div class="col-12 col-md-8" data-aos="fade-left">
+            <img src="{{webRoot}}/assets/img/projects/transport/image9.png" class="screenshot img-fluid rounded shadow-lg" alt="MyTC Dashboard">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TC INTRA: Bullet List Features -->
+     <section class="py-8 py-md-10 bg-white">
+      <div class="container">
+        <!-- Badge -->
+            <span class="badge rounded-pill bg-primary-soft mb-3">
+              <span class="h6 text-uppercase">Co-developed and Open Source</span>
+            </span>
+        <div class="row mb-7">
+          <div class="col-12">
+            <h2 class="fw-bold lb-title-dark">
+              Intranet Scope & Key Features
+            </h2>
+            <p>Leveraging our TC Cloud AKS consulting, the Drupal CMS equity from the main site, and Office 365 Integration, the MyTC Intranet provides a secure and efficient internal communications platform for Transport Canada employees in a SSO single-sign-on environment.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 mb-5 mb-md-0" data-aos="fade-up">
+            <h3 class="h5 fw-bold mb-4">Implementation Scope</h3>
+            <!-- Item -->
+            <div class="d-flex">
+              <!-- Check -->
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <!-- Text -->
+              <p>
+                <strong>4,000+ Bilingual Page Migration</strong>
+              </p>
+            </div>
+            <!-- Item -->
+            <div class="d-flex">
+              <!-- Check -->
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <!-- Text -->
+              <p>
+                <strong>Regional Office RBAC Setup</strong>
+              </p>
+            </div>
+            <!-- Item -->
+            <div class="d-flex">
+              <!-- Check -->
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <!-- Text -->
+              <p>
+                <strong>Organizational Structure Alignment</strong>
+              </p>
+            </div>
+            <!-- Item -->
+            <div class="d-flex">
+              <!-- Check -->
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <!-- Text -->
+              <p>
+                <strong>WCAG 2.1 AA Compliance</strong>
+              </p>
+            </div>
+            <!-- Item -->
+            <div class="d-flex">
+              <!-- Check -->
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <!-- Text -->
+              <p>
+                <strong>Office 365 Single Sign-on Integration</strong>
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-6" data-aos="fade-up">
+            <h3 class="h5 fw-bold mb-4">Key Features</h3>
+            <!-- Item -->
+            <div class="d-flex">
+              <!-- Check -->
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <!-- Text -->
+              <p>
+                <strong>Divisional Content Sections</strong> - Air, Rail, Marine, DG
+              </p>
+            </div>
+            <!-- Item -->
+            <div class="d-flex">
+              <!-- Check -->
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <!-- Text -->
+              <p>
+                <strong>Advanced Full-Text Search</strong>
+              </p>
+            </div>
+            <!-- Item -->
+            <div class="d-flex">
+              <!-- Check -->
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <!-- Text -->
+              <p>
+                <strong>Multilingual Content Management</strong> - EN/FR
+              </p>
+            </div>
+            <!-- Item -->
+            <div class="d-flex">
+              <!-- Check -->
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <!-- Text -->
+              <p>
+                <strong>Publication & Workflow Approvals</strong>
+              </p>
+            </div>
+            <!-- Item -->
+            <div class="d-flex">
+              <!-- Check -->
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <!-- Text -->
+              <p>
+                <strong>Usage Analytics & Reporting Dashboard</strong>
+              </p>
+            </div>
+            <!-- Item -->
+            <div class="d-flex">
+              <!-- Check -->
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <!-- Text -->
+              <p>
+                <strong>Mobile-Responsive Design</strong>
+              </p>
+            </div>
+            <!-- Item -->
+            <div class="d-flex">
+              <!-- Check -->
+              <div class="badge badge-rounded-circle bg-primary-soft mt-1 me-4">
+                <i class="fe fe-check"></i>
+              </div>
+              <!-- Text -->
+              <p>
+                <strong>Full-Text Indexing & Faceted Search</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+   <!-- FOOTER Solution -->
+    <section class="py-8 py-md-11">
+      <div class="container">
+        <div class="row justify-content-center mb-7">
+          <div class="col-12 text-center">
+            <h2 class="fw-bold cb-title-dark">
+              OpenPlus Solution
+            </h2>
+            <p class="mb-0">
+              Capabilities and Integrations for this project.
+            </p>
+          </div>
+        </div>
+        <div class="row justify-content-between">
+  
+          <div class="col-12 col-md-4 text-center aos-init aos-animate d-flex" data-aos="fade-up">
+            <div class="icon mb-3 shadow-light-lg lift lift-lg bg-white p-md-5 p-5 rounded mb-md-7 mb-6">
+              <img src="{{webRoot}}/assets/img/extra/icon-drupal-wxt.png" class="img-fluid">
+              <h4 class="text-primary fw-bold h3 mt-4">
+                DrupalWxT
+              </h4>
+              <p class="mb-0 fs-sm">
+                Drupal consulting, content architecture, theming and development
+              </p>
+            </div>
+          </div>
+  
+          <div class="col-12 col-md-4 text-center aos-init aos-animate d-flex" data-aos="fade-up">
+            <div class="icon mb-3 shadow-light-lg lift lift-lg bg-white p-md-5 p-5 rounded mb-md-7 mb-6">
+              <img src="{{webRoot}}/assets/img/extra/icon-search.png" class="img-fluid">
+              <h4 class="text-primary fw-bold h3 mt-4">
+                Search-First
+              </h4>
+              <p class="mb-0 fs-sm">
+                Search UX improvements for a Content Architecture aware search experience with better results
+              </p>
+            </div>
+          </div>
+  
+          <div class="col-12 col-md-4 text-center aos-init aos-animate d-flex" data-aos="fade-up">
+            <div class="icon mb-3 shadow-light-lg lift lift-lg bg-white p-md-5 p-5 rounded mb-md-7 mb-6">
+              <img src="{{webRoot}}/assets/img/extra/icon-o365.png" class="img-fluid">
+              <h4 class="text-primary fw-bold h3 mt-4">
+                Office 365 Integration 
+              </h4>
+              <p class="mb-0 fs-sm">
+                Single Sign-On with the GC Office365 and integration-ready for MS-Teams and full o365 suite 
+              </p>
+            </div>
+          </div>
+  
+          <div class="col-12 col-md-4 text-center aos-init aos-animate d-flex" data-aos="fade-up">
+            <div class="icon mb-3 shadow-light-lg lift lift-lg bg-white p-md-5 p-5 rounded mb-md-7 mb-6">
+              <img src="{{webRoot}}/assets/img/extra/icon-3rdparty.png" class="img-fluid">
+              <h4 class="text-primary fw-bold h3 mt-4">
+                3rd party Integrations
+              </h4>
+              <p class="mb-0 fs-sm">
+                Drupal integration with other infrastructure tools and common web components for header and footers
+              </p>
+            </div>
+          </div>
+  
+          <div class="col-12 col-md-4 text-center aos-init aos-animate d-flex" data-aos="fade-up">
+            <div class="icon mb-3 shadow-light-lg lift lift-lg bg-white p-md-5 p-5 rounded mb-md-7 mb-6">
+              <img src="{{webRoot}}/assets/img/extra/icon-cloudhost.png" class="img-fluid">
+              <h4 class="text-primary fw-bold h3 mt-4">
+                Managed Container Service
+              </h4>
+              <p class="mb-0 fs-sm">
+                We manage the container in their Azure cloud, managing all updates, security and performance SLA with 24/7 support
+              </p>
+            </div>
+          </div>
+  
+          <div class="col-12 col-md-4 text-center aos-init aos-animate d-flex" data-aos="fade-up">
+            <div class="icon mb-3 shadow-light-lg lift lift-lg bg-white p-md-5 p-5 rounded mb-md-7 mb-6">
+              <img src="{{webRoot}}/assets/img/extra/icon-multilang.png" class="img-fluid">
+              <h4 class="text-primary fw-bold h3 mt-4">
+                Multilingual
+              </h4>
+              <p class="mb-0 fs-sm">
+                Multilingual solution supporting English and French at the TBS guideline level
+              </p>
+            </div>
+          </div>
+  
+          <div class="col-12 col-md-4 text-center aos-init aos-animate d-flex" data-aos="fade-up">
+            <div class="icon mb-3 shadow-light-lg lift lift-lg bg-white p-md-5 p-5 rounded mb-md-7 mb-6">
+              <img src="{{webRoot}}/assets/img/extra/icon-searchfacets.png" class="img-fluid">
+              <h4 class="text-primary fw-bold h3 mt-4">
+                Search Facets
+              </h4>
+              <p class="mb-0 fs-sm">
+                Improved search experience and search results with relevant search facets and filters based on proper content architecture
+              </p>
+            </div>
+          </div>
+  
+          <div class="col-12 col-md-4 text-center aos-init aos-animate d-flex" data-aos="fade-up">
+            <div class="icon mb-3 shadow-light-lg lift lift-lg bg-white p-md-5 p-5 rounded mb-md-7 mb-6">
+              <img src="{{webRoot}}/assets/img/extra/icon-responsive.png" class="img-fluid">
+              <h4 class="text-primary fw-bold h3 mt-4">
+                Responsive
+              </h4>
+              <p class="mb-0 fs-sm">
+                Mobile friendly and responsive website with custom behaviors for mobile devices to even further simplify the user experience
+              </p>
+            </div>
+          </div>
+  
+          <div class="col-12 col-md-4 text-center aos-init aos-animate d-flex" data-aos="fade-up">
+            <div class="icon mb-3 shadow-light-lg lift lift-lg bg-white p-md-5 p-5 rounded mb-md-7 mb-6">
+              <img src="{{webRoot}}/assets/img/extra/icon-complexapi.png" class="img-fluid">
+              <h4 class="text-primary fw-bold h3 mt-4">
+                Data APIs
+              </h4>
+              <p class="mb-0 fs-sm">
+                Open Drupal API drive both inbound and outbound structured dataset web services for partners
+              </p>
+            </div>
+          </div>
+  
+          <div class="col-12 col-md-4 text-center aos-init aos-animate d-flex" data-aos="fade-up">
+            <div class="icon mb-3 shadow-light-lg lift lift-lg bg-white p-md-5 p-5 rounded mb-md-7 mb-6">
+              <img src="{{webRoot}}/assets/img/extra/icon-training.png" class="img-fluid">
+              <h4 class="text-primary fw-bold h3 mt-4">
+                Solution Training
+              </h4>
+              <p class="mb-0 fs-sm">
+                Live training for content contributors to manage content with recorded screencast for ease of reference 
+              </p>
+            </div>
+          </div>
+  
+          <div class="col-12 col-md-4 text-center aos-init aos-animate d-flex" data-aos="fade-up">
+            <div class="icon mb-3 shadow-light-lg lift lift-lg bg-white p-md-5 p-5 rounded mb-md-7 mb-6">
+              <img src="{{webRoot}}/assets/img/extra/icon-report.png" class="img-fluid">
+              <h4 class="text-primary fw-bold h3 mt-4">
+                Quality Assurance Report
+              </h4>
+              <p class="mb-0 fs-sm">
+                Compliance and QA reporting on cross-browser testing, mobile testing and accessibility (WCAG 2.1 AA)
+              </p>
+            </div>
+          </div>
+  
+          <div class="col-12 col-md-4 text-center aos-init aos-animate d-flex" data-aos="fade-up">
+            <div class="icon mb-3 shadow-light-lg lift lift-lg bg-white p-md-5 p-5 rounded mb-md-7 mb-6">
+              <img src="{{webRoot}}/assets/img/extra/icon-agile.png" class="img-fluid">
+              <h4 class="text-primary fw-bold h3 mt-4">
+                Agile
+              </h4>
+              <p class="mb-0 fs-sm">
+                Agile Project management, part of weekly status updates
+              </p>
+            </div>
+          </div>
+
+  
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER Tech -->
+    <section class="py-8 pt-md-10 pb-md-8 bg-primary">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+            <h2 class="display-4 fw-bold text-white cb-title-light">
+              Technologies & Accessibility
+            </h1>
+            <p class="fs-lg text-white mb-6 mb-md-8">
+              Under the hood powered by OpenSource
+            </p>
+          </div>
+        </div>
+        <div class="row mt-n7">
+          <div class="col-6 col-sm-6 col-lg-3 col-md-3 mt-7">
+            <a class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center" href="https://gcdrupal.ca" target="_blank" style="min-width: 220px">
+              <div class="card-body p-5 my-auto">
+        <div><!--?xml version="1.0" encoding="UTF-8"?--><svg id="Layer_1" width="180" height="52.8" viewBox="0 0 282 52.8"><g><path style="fill:#424242;" d="M76.8,40.9c-2.2.8-6.5,1.8-10.7,1.8-5.9,0-10.1-1.5-13.1-4.3s-4.6-7-4.5-11.7c0-10.7,7.8-16.8,18.4-16.8,4.1,0,7.3.8,8.9,1.6l-1.5,5.8c-1.8-.8-4-1.4-7.5-1.4-6.1,0-10.6,3.4-10.6,10.4,0,6.6,4.1,10.5,10.1,10.5,1.7,0,3-.2,3.6-.5v-6.7h-5v-5.6h12v16.9h-.1Z"></path><path style="fill:#424242;" d="M104.8,41.5c-1.3.7-4.3,1.4-8.2,1.4-11.1,0-16.8-6.9-16.8-16.1,0-11,7.8-17.1,17.5-17.1,3.8,0,6.6.8,7.9,1.4l-1.5,5.8c-1.5-.6-3.5-1.2-6.1-1.2-5.8,0-10.2,3.5-10.2,10.6,0,6.4,3.8,10.5,10.3,10.5,2.2,0,4.6-.5,6.1-1l1,5.7Z"></path><path style="fill:#424242;" d="M128.6,8.5v27.9c0,2,0,4.4.2,6h-3.8l-.2-4h-.1c-1.3,2.6-4.1,4.5-7.9,4.5-5.6,0-9.9-4.7-9.9-11.7,0-7.7,4.7-12.4,10.3-12.4,3.5,0,5.9,1.7,7,3.5h.1v-13.8h4.3ZM124.4,28.7c0-.5,0-1.2-.2-1.8-.6-2.7-2.9-4.9-6.1-4.9-4.3,0-6.9,3.8-6.9,8.9,0,4.7,2.3,8.5,6.8,8.5,2.8,0,5.4-1.9,6.1-5,.1-.6.2-1.1.2-1.8v-3.9h.1Z"></path><path style="fill:#424242;" d="M134.3,26.5c0-2.7,0-5.1-.2-7.2h3.7l.1,4.5h.2c1-3.1,3.6-5.1,6.4-5.1.5,0,.8,0,1.2.1v4c-.4-.1-.9-.1-1.4-.1-3,0-5.1,2.2-5.6,5.4-.1.6-.2,1.2-.2,2v12.3h-4.1v-15.9h-.1Z"></path><path style="fill:#424242;" d="M168,36.1c0,2.4,0,4.5.2,6.3h-3.7l-.2-3.8h-.1c-1.1,1.9-3.5,4.3-7.6,4.3-3.6,0-8-2-8-10.1v-13.5h4.2v12.8c0,4.4,1.3,7.3,5.1,7.3,2.8,0,4.8-2,5.5-3.8.2-.6.4-1.4.4-2.1v-14.2h4.2v16.8h0Z"></path><path style="fill:#424242;" d="M173.7,26.8c0-3-.1-5.3-.2-7.5h3.8l.2,4h.1c1.7-2.8,4.4-4.5,8.2-4.5,5.6,0,9.8,4.7,9.8,11.7,0,8.3-5.1,12.4-10.5,12.4-3.1,0-5.7-1.3-7.1-3.6h-.1v12.5h-4.1v-25h-.1ZM177.8,33c0,.6.1,1.2.2,1.7.8,2.9,3.3,4.9,6.3,4.9,4.4,0,7-3.6,7-8.9,0-4.6-2.4-8.6-6.9-8.6-2.9,0-5.5,2-6.3,5.2-.1.5-.3,1.1-.3,1.7v4Z"></path><path style="fill:#424242;" d="M212.3,42.4l-.3-2.9h-.1c-1.3,1.8-3.8,3.4-7.1,3.4-4.7,0-7.1-3.3-7.1-6.6,0-5.6,5-8.6,13.9-8.6v-.5c0-1.9-.5-5.3-5.2-5.3-2.1,0-4.4.7-6,1.7l-1-2.8c1.9-1.2,4.7-2,7.6-2,7.1,0,8.8,4.8,8.8,9.4v8.6c0,2,.1,4,.4,5.5h-3.9v.1ZM211.7,30.6c-4.6-.1-9.8.7-9.8,5.2,0,2.7,1.8,4,4,4,3,0,4.9-1.9,5.6-3.9.1-.4.2-.9.2-1.3v-4Z"></path><path style="fill:#424242;" d="M221.3,8.5h4.2v33.8h-4.2V8.5Z"></path><path style="fill:#424242;" d="M229.8,39.9c0-1.8,1.2-3,2.9-3s2.8,1.2,2.8,3c0,1.7-1.1,3-2.9,3-1.6,0-2.8-1.3-2.8-3Z"></path><path style="fill:#424242;" d="M255.9,41.5c-1.1.6-3.5,1.3-6.6,1.3-7,0-11.5-4.7-11.5-11.8s4.9-12.2,12.4-12.2c2.5,0,4.7.6,5.8,1.2l-1,3.2c-1-.6-2.6-1.1-4.9-1.1-5.3,0-8.2,3.9-8.2,8.7,0,5.3,3.4,8.6,8,8.6,2.4,0,4-.6,5.1-1.1l.9,3.2Z"></path><path style="fill:#424242;" d="M272.4,42.4l-.3-2.9h-.1c-1.3,1.8-3.8,3.4-7.1,3.4-4.7,0-7.1-3.3-7.1-6.6,0-5.6,5-8.6,13.9-8.6v-.5c0-1.9-.5-5.3-5.2-5.3-2.1,0-4.4.7-6,1.7l-1-2.8c1.9-1.2,4.7-2,7.6-2,7.1,0,8.8,4.8,8.8,9.4v8.6c0,2,.1,4,.4,5.5h-3.9v.1ZM271.7,30.6c-4.6-.1-9.8.7-9.8,5.2,0,2.7,1.8,4,4,4,3,0,4.9-1.9,5.6-3.9.1-.4.2-.9.2-1.3v-4h0Z"></path></g><path style="fill:#7f7f7f;" d="M26.2,27.7c-2.2-2.2-4.3-4.3-4.9-6.6-.6,2.3-2.7,4.4-4.9,6.6-3.3,3.3-7,7-7,12.5,0,6.5,5.3,11.9,11.9,11.9s11.9-5.3,11.9-11.9c-.1-5.5-3.8-9.2-7-12.5M14.5,43c-.7,0-3.4-4.6,1.6-9.6l3.3,3.6c.1.1.1.3,0,.4h0c-.8.8-4.1,4.2-4.6,5.3-.1.3-.2.3-.3.3M21.3,49.1c-2.3,0-4.1-1.8-4.1-4.1h0c0-1,.4-2,1-2.7.7-.9,3.1-3.4,3.1-3.4,0,0,2.3,2.6,3.1,3.4.7.7,1,1.7,1,2.7,0,2.3-1.9,4.1-4.1,4.1M29.1,42.5c-.1.2-.3.5-.6.5-.5,0-.5-.2-.9-.8-.8-1.2-7.6-8.2-8.8-9.6-1.1-1.2-.2-2.1.3-2.5l2.2-2.2s4.9,4.6,6.9,7.8c2,3.2,1.3,5.9.9,6.8"></path><g><path style="fill:#d00;" d="M39.7,22.2l-2-1c-.3-.1-.4-.5-.3-.8l1.8-5.8-5.2,1.1c-.3.1-.6-.1-.7-.4l-1-2.5-4,4.6c-.2.3-.6.3-.9,0-.2-.2-.2-.4-.2-.6l1.9-10.7-3.1,2c-.3.2-.7.1-.8-.2h0l-3.2-6.7v16.5l9.9,11.3,7.8-6.8Z"></path><path style="fill:#aa0404;" d="M2.9,22.2l2-1c.3-.1.4-.5.3-.8l-1.8-5.8,5.2,1.2c.3.1.6-.1.7-.4l1-2.5,4,4.6c.2.3.6.3.9,0,.2-.2.2-.4.2-.6l-2-10.7,3.1,1.9c.3.2.7.1.8-.2h0l3.2-6.6v16.5l-9.8,11.2-7.8-6.8Z"></path></g></svg></div>
+              </div>
+            </a>
+          </div>
+          <div class="col-6 col-sm-6 col-lg-3 col-md-3 mt-7">
+            <div class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center">
+              <div class="card-body p-5 my-auto">
+                <img src="{{webRoot}}/assets/img/extra/wcag.png" class="img-fluid">
+              </div>
+            </div>
+          </div>    
+          <div class="col-4 col-sm-4 col-lg-2 col-md-2 mt-7">
+            <div class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center">
+              <div class="card-body p-5 my-auto">
+                <img src="{{webRoot}}/assets/img/extra/html5.png" class="img-fluid">
+              </div>
+            </div>
+          </div>  
+          <div class="col-4 col-sm-4 col-lg-2 col-md-2 mt-7">
+            <div class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center">
+              <div class="card-body p-5 my-auto">
+                <img src="{{webRoot}}/assets/img/extra/css3.png" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="col-4 col-sm-4 col-lg-2 col-md-2 mt-7">
+            <div class="card shadow-light-lg mb-6 mb-md-0 lift lift-lg h-100 rounded-3 text-center">
+              <div class="card-body p-5 my-auto">
+                <img src="{{webRoot}}/assets/img/extra/js5.png" class="img-fluid">
+              </div>
+            </div>
+          </div>                         
+        </div> 
+        <div class="row justify-content-center text-center mt-8">
+          <p class="fs-lg text-white mb-6 mb-md-8">For a full case study on this project<br><br>
+            <a href="{{webRoot}}/contact/" class="btn btn-white lift">Contact Us </a></p>
+        </div>       
+      </div>
+    </section>    
+    
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x text-gray-200">
+        {{> curves/curve-1}}
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    {{> partials/footer classList="bg-gray-200"}}
+
+    <!-- JAVASCRIPT -->
+    {{> partials/scripts}}
+    
+  </body>
+</html>
